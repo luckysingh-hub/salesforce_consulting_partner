@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  /* @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Muli&display=swap"); */
+  :root {
+     /* --ff-head: "Merriweather", serif;
+     --ff-body: "Muli", sans-serif; */
+  }
+  .section-heading {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    color: #29ade4;
+    text-transform: capitalize;
+    padding: 0 0 12px 0;
+    display: block;
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-family: var(--ff-head);
+  }
+  .section-heading span {
+    color: #002135;
+    font-weight: 400;
+    font-size: var(--ff-head);
+}
+
+.section-heading .section-line {
+  position: absolute;
+  background: #29ade4;
+  width: 210px;
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.section-heading .section-line:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 7px;
+  background: #29ade4;
+  top: -3px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+  a{
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+nav {
+  background:#ffffff;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  border-bottom: #29ade4 solid 2px;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  height: 4rem;
+  width: 8rem;
+}
+.topContact{
+  display: flex;
+  list-style: none; 
+   column-gap:22px;
+  /* align-items: center; */
+  padding: 7px 0px;
+  font-weight: 600;
+  color: #686565 !important;
+  background-color: #2ABFF5;
+}
+.topContact li {
+display: inline-block;
+}
+nav .mainMenuTop{
+  display: flex;
+}
+.contactBUtton{
+  border-radius: 205px;
+  background-color: red;
+  font-weight: bold;
+}
+.contactBUtton:hover{
+transition: 0.5s ease;
+background-color: rgb(139, 10, 10);
+}
+nav .mainMenu .contactBUttonLep{
+  display: none;
+}
+nav .mainMenu {
+  display: flex;
+  list-style: none;
+align-items: center;
+text-align: center;
+}
+nav .mainMenu li a {
+  display: inline-block;
+  padding:0px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#000000 !important;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+nav .mainMenu li a:hover {
+  background:rgb(138, 4, 4);
+  color: #ffffff !important;
+}
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .mainMenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+.fa-facebook:hover {
+  color: rgb(0, 110, 255);
+}
+.fa-twitter:hover {
+  color: rgb(86, 154, 243);
+}
+.fa-instagram:hover {
+  color: rgb(255, 0, 191);
+}
+.fa-github:hover {
+  color: rgb(255, 123, 0);
+}
+nav .logo {
+  margin: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+@media (max-width: 800px) {
+  .topContact{
+    display: none;
+  }
+  .contactBUtton{
+    display: none;
+  }
+  nav .mainMenu{
+    padding-left: 0%;
+  }
+  nav .mainMenu .contactBUttonLep{
+    display: block;
+  }
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    transition: top 1s ease 0s;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+  nav .mainMenu li a:hover {
+    background: red;
+  }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+  nav .mainMenu li a{
+    color: #ffffff !important;
+    padding: 15px;
+  }
+}
+
+
+
+
+
+/*================== footer style code ================= */
+.footerAddressHeading{
+  font-size: 20px;
+}
+.footerAddress{
+  display: flex;
+  align-items: start;
+  font-size: 14px;
+  max-width: 90%;
+  color: #dfdfdf;
+}
+.footerAddress img{
+  margin: 5px 10px 0 0;
+max-width: 28px;
+}
+.footerMailPhoneIcon{
+  display: flex;
+  align-items: start;
+  font-size: 14px;
+  color: #dfdfdf;
+}
+.footerMailPhoneIcon i{
+  margin: 5px 20px 0 0;
+}
+.footerHrline{
+  height: 3px !important;
+  background-color: #ffffff;
+}
+/*================== footer style code ================= */

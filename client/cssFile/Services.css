@@ -1,0 +1,436 @@
+ .centered {
+     text-align: center
+ }
+
+
+ #process {
+     padding: 125px 0 50px 0
+ }
+
+ .processBlock::before {
+     content: "";
+     position: relative;
+     top: -5px;
+     left: 93px;
+     height: 3px;
+     width: 109%;
+     background: #82AAE3
+ }
+
+ .processBlock:before,
+ .processBlock:after {
+     content: " ";
+     display: table
+ }
+
+ .processDot {
+     position: relative;
+     top: -17px;
+     left: 75px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     border: 1px solid #173e5f;
+     opacity: 0;
+     background: #D63C29
+ }
+
+ .processDot.lastDot {
+     top: -14px
+ }
+
+ .processBlock .topProcess {
+     position: relative;
+     top: -94px
+ }
+
+ .processText {
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     line-height: 21px;
+     padding-left: 47px;
+     color: #29ade4
+ }
+
+ @media(max-width:792) {}
+
+ @-webkit-keyframes fadeIn {
+     from {
+         opacity: 0
+     }
+
+     to {
+         opacity: 1
+     }
+ }
+
+ @-moz-keyframes fadeIn {
+     from {
+         opacity: 0
+     }
+
+     to {
+         opacity: 1
+     }
+ }
+
+ @keyframes fadeIn {
+     from {
+         opacity: 0
+     }
+
+     to {
+         opacity: 1
+     }
+ }
+
+ .animated .processDot,
+ .animated .processText {
+     opacity: 0;
+     -webkit-animation: fadeIn ease-in 1;
+     -moz-animation: fadeIn ease-in 1;
+     animation: fadeIn ease-in 1;
+     -webkit-animation-fill-mode: forwards;
+     -moz-animation-fill-mode: forwards;
+     animation-fill-mode: forwards;
+     -webkit-animation-duration: 1s;
+     -moz-animation-duration: 1s;
+     animation-duration: 1s
+ }
+
+ .processBlock.one .processText {
+     -webkit-animation-delay: .4s;
+     -moz-animation-delay: .4s;
+     animation-delay: .4s
+ }
+
+ .processBlock.two .processDot {
+     -webkit-animation-delay: .8s;
+     -moz-animation-delay: .8s;
+     animation-delay: .8s
+ }
+
+ .processBlock.two .processText {
+     -webkit-animation-delay: 1.2s;
+     -moz-animation-delay: 1.2s;
+     animation-delay: 1.2s
+ }
+
+ .processBlock.three .processDot {
+     -webkit-animation-delay: 1.6s;
+     -moz-animation-delay: 1.6s;
+     animation-delay: 1.6s
+ }
+
+ .processBlock.three .processText {
+     -webkit-animation-delay: 2s;
+     -moz-animation-delay: 2s;
+     animation-delay: 2s
+ }
+
+ .processBlock.four .processDot {
+     -webkit-animation-delay: 2.4s;
+     -moz-animation-delay: 2.4s;
+     animation-delay: 2.4s
+ }
+
+ .processBlock.four .processText {
+     -webkit-animation-delay: 2.8s;
+     -moz-animation-delay: 2.8s;
+     animation-delay: 2.8s
+ }
+
+ .processBlock.five .processDot {
+     -webkit-animation-delay: 3.2s;
+     -moz-animation-delay: 3.2s;
+     animation-delay: 3.2s
+ }
+
+ .processBlock.five .processText {
+     -webkit-animation-delay: 3.6s;
+     -moz-animation-delay: 3.6s;
+     animation-delay: 3.6s
+ }
+
+ .processBlock.six .processDot {
+     -webkit-animation-delay: 4s;
+     -moz-animation-delay: 4s;
+     animation-delay: 4s
+ }
+
+ .processBlock.six .processText {
+     -webkit-animation-delay: 4.2s;
+     -moz-animation-delay: 4.2s;
+     animation-delay: 4.2s
+ }
+
+ .processLast.sevan .processDot {
+     -webkit-animation-delay: 4.8s;
+     -moz-animation-delay: 4.8s;
+     animation-delay: 4.8s
+ }
+
+ .processLast.sevan .processText {
+     -webkit-animation-delay: 5s;
+     -moz-animation-delay: 5s;
+     animation-delay: 5s
+ }
+
+ @-webkit-keyframes mymove {
+     from {
+         width: 0;
+         opacity: 0
+     }
+
+     to {
+         width: 110%;
+         opacity: 1
+     }
+ }
+
+ @-moz-keyframes mymove {
+     from {
+         width: 0;
+         opacity: 0
+     }
+
+     to {
+         width: 110%;
+         opacity: 1
+     }
+ }
+
+ @keyframes mymove {
+     from {
+         width: 0;
+         opacity: 0
+     }
+
+     to {
+         width: 110%;
+         opacity: 1
+     }
+ }
+
+ .animated .processBlock::before {
+     width: 0;
+     opacity: 0;
+     -webkit-animation: mymove ease-in 1;
+     -moz-animation: mymove ease-in 1;
+     animation: mymove ease-in 1;
+     -webkit-animation-fill-mode: forwards;
+     -moz-animation-fill-mode: forwards;
+     animation-fill-mode: forwards;
+     -webkit-animation-duration: 1s;
+     -moz-animation-duration: 1s;
+     animation-duration: 1s
+ }
+
+ .processBlock.one::before {
+     -webkit-animation-delay: .7s;
+     -moz-animation-delay: .7s;
+     animation-delay: .7s
+ }
+
+ .processBlock.two::before {
+     -webkit-animation-delay: 1.5s;
+     -moz-animation-delay: 1.5s;
+     animation-delay: 1.5s
+ }
+
+ .processBlock.three::before {
+     -webkit-animation-delay: 2.3s;
+     -moz-animation-delay: 2.3s;
+     animation-delay: 2.3s
+ }
+
+ .processBlock.four::before {
+     -webkit-animation-delay: 3.1s;
+     -moz-animation-delay: 3.1s;
+     animation-delay: 3.1s
+ }
+
+ .processBlock.five::before {
+     -webkit-animation-delay: 4s;
+     -moz-animation-delay: 4s;
+     animation-delay: 4s
+ }
+
+ .processBlock.six::before {
+     -webkit-animation-delay: 4.7s;
+     -moz-animation-delay: 4.7;
+     animation-delay: 4.7s
+ }
+
+ .processBlock.sevan::before {
+     -webkit-animation-delay: 5.5s;
+     -moz-animation-delay: 5.5s;
+     animation-delay: 5.5s
+ }
+
+ @media screen and (max-width:767px) {
+
+     .processBlock,
+     .processLast {
+         height: 80px;
+         width: 65%;
+         margin: 0 auto
+     }
+
+     .animated .processBlock::before {
+         ms-transform: rotate(90deg);
+         -webkit-transform: rotate(90deg);
+         transform: rotate(90deg);
+         opacity: 1;
+         -webkit-animation: none;
+         -moz-animation: none;
+         -ms-animation: none;
+         -o-animation: none;
+         animation: none;
+         height: 4px;
+         width: 64px;
+         top: 40px;
+         left: 0
+     }
+
+     .animated .processDot {
+         left: 22px;
+         top: -10px;
+         opacity: 1;
+         -webkit-animation: none;
+         -moz-animation: none;
+         -ms-animation: none;
+         -o-animation: none;
+         animation: none
+     }
+
+     .processDot.lastDot {
+         left: 23px;
+         top: -10px
+     }
+
+     .processBlock .topProcess {
+         position: inherit;
+         top: inherit
+     }
+
+     .animated .processText {
+         opacity: 1;
+         -webkit-animation: none;
+         -moz-animation: none;
+         -ms-animation: none;
+         -o-animation: none;
+         animation: none;
+         font-size: 22px;
+         font-weight: 300;
+         top: -37px !important;
+         position: relative !important;
+         text-align: left;
+         padding-left: 80px
+     }
+
+     .processText br {
+         display: none
+     }
+
+     #process {
+         padding: 60px 0 0 0
+     }
+ }
+
+ @media screen and (max-width:480px) {
+
+     .processBlock,
+     .processLast {
+         width: 95%;
+         margin-left: 5%
+     }
+ }
+
+ @media screen and (max-width:320px) {
+
+     .processBlock,
+     .processLast {
+         width: 100%;
+         margin-left: 0
+     }
+ }
+
+ .services-project {
+     text-align: center;
+     position: relative;
+     border: 1px solid #29ade4;
+     padding: 28px 25px 25px 25px;
+     border-radius: 5px;
+     transition: .75s;
+     height: 100%
+ }
+ .services-project p{
+    color: rgb(152, 152, 154); }
+
+ .services-project:hover {
+     background-color: #29ade4;
+     border-radius: 50px 0 50px 0
+ }
+ .services-project:hover .serv-po-head{
+    color: #ffffff;
+ }
+ .services-project:hover p{
+    color: #ffffff;
+ }
+ .services-project:hover a{
+    color: red !important;
+ }
+ .services-project:hover i{
+    color: red !important;
+ }
+
+
+
+ .serv-top-num {
+     position: absolute;
+     top: -12px;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     background: #29ade4;
+     width: 40px;
+     height: 30px;
+     font-size: 20px;
+     color: #fff;
+ }
+
+ .serv-top-num:before {
+     top: 0;
+     left: -11px;
+     border-left-color: transparent
+ }
+
+ .serv-top-num:after {
+     top: 0;
+     right: -11px;
+     border-right-color: transparent
+ }
+
+ .serv-top-num:after,
+ .serv-top-num:before {
+     position: absolute;
+     z-index: -1;
+     content: '';
+     display: block;
+     border: 6px solid #0d6083;
+     border-top-color: transparent
+ }
+
+ .serv-po-head {
+     color: #29ade4;
+     font-size: 20px;
+     margin: 0 0 10px 0;
+     text-transform: uppercase;
+     transition: .75s
+ }
+ .services-project a{
+    font-size: 15px;
+    font-weight: 700;
+ }

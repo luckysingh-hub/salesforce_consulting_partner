@@ -1,0 +1,91 @@
+#banner {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 13px
+}
+.line-1 {
+    width: 90%;
+    font-size:28px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 400;
+    transform: translateY(-50%);
+    margin: auto;
+  }
+  
+  /* Animation */
+  .anim-typewriter {
+    animation: typewriter 4s steps(30) .1s 1 normal;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  
+  
+  @keyframes caret {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @media (max-width: 800px){
+    .line-1{
+display: none;    }
+  }
+  
+
+.aboutContant {
+    font-size: 17px;
+    line-height: 29px
+}
+
+.Aim {
+    font-size: 25px;
+    font-weight: 700;
+    color: #29ade4;
+    line-height: 33px
+}
+
+.AimBox {
+    border: solid #29ade4 1px;
+    height: 250px;
+    width: 100%;
+    border-radius: 0 60px 0 0;
+    text-align: center;
+    transition: .75s;
+}
+.AimBox:hover{
+  background-color: #29ade4;
+  border-radius: 60px 0 0 0;
+}
+
+.AimBox i {
+    font-size: 38px;
+    color: #29ade4
+}
+.AimBox:hover i{
+  color: #ffffff;
+}
+
+.AimBoxTitel {
+    font-size: 20px;
+    font-weight: 600;
+    color: #D63C29;
+    padding-top: 5px
+}
+
+.AimBoxSubTitel {
+    font-size: 15px;
+    color: #444;
+    line-height: 20px;
+}

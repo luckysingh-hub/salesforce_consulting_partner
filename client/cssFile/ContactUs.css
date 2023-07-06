@@ -1,0 +1,30 @@
+.contact-tittel-h1 {
+    color: #002135;
+    font-size: 50px;
+    font-weight: bold
+}
+
+.project-mind-p {
+    font-size: 17px;
+    color: #737373;
+    margin: 10px 0 0 0
+}
+
+form {
+    padding: 26px 40px
+}
+
+.addressMap {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 10px
+}
+
+select {
+  color: #ced4da;
+}
+option:not(:first-of-type) {
+  color: black;
+}
+  
