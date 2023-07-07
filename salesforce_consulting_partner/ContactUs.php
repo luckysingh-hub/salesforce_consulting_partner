@@ -26,7 +26,7 @@
                             <input type="hidden" name="lead_source" value="Web">
                     <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <input type="text" class="form-control border-0 border-bottom" placeholder="Your Full Name" class="name" require>
+                            <input type="text" class="form-control border-0 border-bottom" placeholder="Your Full Name" name="name" require>
                         </div>
                         <div class="col-lg-6 mb-3">
                             <input type="text" class="form-control border-0 border-bottom" placeholder="Company (Optional)" name="company">
