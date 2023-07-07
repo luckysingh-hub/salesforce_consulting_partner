@@ -15,7 +15,7 @@
 <section class="mt-5 sectionDividLine">
     <div class="container mb-5">
         <div class="section-heading">
-            Abouts
+            About
             <span>CodM software</span>
             <div class="section-line"></div>
         </div>
