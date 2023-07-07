@@ -60,7 +60,7 @@
                             <textarea class="w-100 form-control border-0 border-bottom" placeholder="About Your Project" name="description" require></textarea>
                         </div>
                         <div class="col-lg-5">
-                            <a href="#!" class="btn btn-primary w-100" role="button" name="submit">Send Message <i class="fa-solid fa-paper-plane"></i></a>
+                            <button class="btn btn-primary w-100" role="button" name="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
                         </div>
                     </div>
                 </form>
