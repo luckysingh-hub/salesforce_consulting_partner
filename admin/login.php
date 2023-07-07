@@ -14,45 +14,38 @@
     <!-- favicon Icon End -->
 
     <!-- custam style sheet  -->
-    <link rel="stylesheet" href="/admin//cssFile//login.css">
+    <link rel="stylesheet" href="../admin//cssFile//login.css">
     <!-- custam style sheet  -->
+    <!-- style scheet cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- style scheet cdn  -->
+<!-- custome javascript  -->
+<script src="../admin//javaScriptAdmin//login.js" defer></script>
+<!-- custome javascript  -->
+    <!-- java script cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js" defer></script>
+    <!-- java script cdn  -->
 </head>
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-3 col-md-2"></div>
-    <div class="col-lg-6 col-md-8 login-box">
-      <div class="col-lg-12 login-key">
-        <i class="fa fa-key" aria-hidden="true"></i>
-      </div>
-      <div class="col-lg-12 login-title">
-        ADMIN PANEL
-      </div>
-
-      <div class="col-lg-12 login-form">
-        <div class="col-lg-12 login-form">
-          <form>
-            <div class="form-group">
-              <label class="form-control-label">USERNAME</label>
-              <input type="text" class="form-control">
-            </div>
-            <div class="form-group">
-              <label class="form-control-label">PASSWORD</label>
-              <input type="password" class="form-control" i>
-            </div>
-
-            <div class="col-lg-12 loginbttm">
-              <div class="col-lg-6 login-btm login-text">
-                <!-- Error Message -->
-              </div>
-              <div class="col-lg-6 login-btm login-button">
-                <button type="submit" class="btn btn-outline-primary">LOGIN</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-2"></div>
+  <div class="container">
+    <div class="loginForm my-5">
+      <h2 class="text-white text-center pt-3">CodM Admin</h2>
+    <svg viewBox="0 0 320 300">
+        <defs>
+          <linearGradient inkscape:collect="always" id="linearGradient" x1="13" y1="193.49992" x2="307" y2="193.49992" gradientUnits="userSpaceOnUse">
+            <stop style="stop-color:#ff00ff;" offset="0" id="stop876" />
+            <stop style="stop-color:#ff0000;" offset="1" id="stop878" />
+          </linearGradient>
+        </defs>
+        <path d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
+      </svg>
+      <form class="form" action="#!">
+        <label for="id">Id</label>
+        <input type="text" id="id" require>
+        <label for="password">Password</label>
+        <input type="password" id="password" require>
+        <input type="submit" id="submit" value="Submit">
+      </form>
     </div>
   </div>
 </body>
