@@ -7,8 +7,8 @@
     <h1 id="typewriter" class="text-center mt-5 text-white"></h1>
     <p class="tagLine pb-4 text-white">Unlock your sales potential with Salesforce Services - drive growth, increase success</p>
     <div class="bannerButton mb-5">
-        <a href="ContactUs.php" class="btn btn-outline-info text-uppercase mb-3 p-2"><i class="fa-regular fa-comment"></i> Talk to a Consultant</a>
-        <a href="Career.php" class="btn btn-outline-info text-uppercase mb-3 ms-4 p-2"><i class="fa-solid fa-user"></i> Hiring</a>
+        <a href="ContactUs" class="btn btn-outline-info text-uppercase mb-3 p-2"><i class="fa-regular fa-comment"></i> Talk to a Consultant</a>
+        <a href="Career" class="btn btn-outline-info text-uppercase mb-3 ms-md-4 p-2"><i class="fa-solid fa-user"></i> Hiring</a>
     </div>
 </section>
 
