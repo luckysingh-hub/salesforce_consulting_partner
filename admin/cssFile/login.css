@@ -51,7 +51,6 @@ input {
   width: 100%;
   line-height: 30px;
   outline: none !important;
-  text-transform: uppercase;
 }
 input::-moz-focus-inner {
   border: 0;
@@ -68,3 +67,9 @@ input::-moz-focus-inner {
 #submit:active {
   color: #d0d0d2;
 } 
+.error{
+  text-align: center;
+  color: red;
+  font-size: 23px;
+  font-weight: bold;
+}
