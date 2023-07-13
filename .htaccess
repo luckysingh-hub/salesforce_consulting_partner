@@ -1,5 +1,5 @@
 DirectoryIndex salesforce_consulting_partner index.php
-DirectoryIndex salesforce_consulting_partner admin login.php
+DirectoryIndex admin login_form.php
 
 
 ErrorDocument 404 /salesforce_consulting_partner/404.html
