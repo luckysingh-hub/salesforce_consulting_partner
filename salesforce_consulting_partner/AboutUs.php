@@ -1,5 +1,8 @@
 <!-- header include  -->
-<?php include "../client/app/header.php"; ?>
+<?php 
+include "../client/app/header.php"; 
+include "../admin/databash/dbConnect.php";
+?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
 <section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
@@ -79,36 +82,18 @@
             <div class="section-line"></div>
         </div>
         <div class="owl-carousel owl-theme text-center magnificPopup " id="Events">
+        <?php
+            // / Fetch client data from the database
+            $query = "SELECT * FROM `event_images`";
+            $result = mysqli_query($conn, $query);
+            while ($row = mysqli_fetch_assoc($result)) {
+            ?>
         <div class="item">
-            <a href="../client//imageFoleder//gallery//img1.png">
-                <img src="../client//imageFoleder//gallery//img1.png"alt="celebration-image">
+            <a href="<?php echo $row['image_data']; ?>">
+            <img src="<?php echo $row['image_data']; ?>" alt="<?php echo $row['image_name']; ?>">
             </a>
         </div>
-        <div class="item">
-            <a href="../client//imageFoleder//gallery//img1.png">
-                <img src="../client//imageFoleder//gallery//img2.png"alt="celebration-image">
-            </a>
-        </div>
-        <div class="item">
-            <a href="../client//imageFoleder//gallery//img1.png">
-                <img src="../client//imageFoleder//gallery//img3.png"alt="celebration-image">
-            </a>
-        </div>
-        <div class="item">
-            <a href="../client//imageFoleder//gallery//img1.png">
-                <img src="../client//imageFoleder//gallery//img4.png"alt="celebration-image">
-            </a>
-        </div>
-        <div class="item">
-            <a href="../client//imageFoleder//gallery//img1.png">
-                <img src="../client//imageFoleder//gallery//img5.png"alt="celebration-image">
-            </a>
-        </div>
-        <div class="item">
-            <a href="../client//imageFoleder//gallery//img1.png">
-                <img src="../client//imageFoleder//gallery//img6.png"alt="celebration-image">
-            </a>
-        </div>
+        <?php } ?>
         </div>
 </div>
 </section>
