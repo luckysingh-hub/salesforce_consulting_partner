@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="../client//cssFile//Services.css">
     <link rel="stylesheet" href="../client//cssFile//Career.css">
     <link rel="stylesheet" href="../client//cssFile//Job_Seeker_Form.css">
+    <link rel="stylesheet" href="../client//cssFile//blog.css">
     <link rel="stylesheet" href="../client//cssFile//ContactUs.css">
     <!-- Custom Css File ENd -->
 
@@ -96,7 +97,7 @@
                 <li><a href="AboutUs">About Us</a></li>
                 <li><a href="Services">Services</a></li>
                 <li><a href="Career">Career</a></li>
-                <li><a href="#!">Blog</a></li>
+                <li><a href="Blog">Blog</a></li>
                 <li><a href="ContactUs" class="contactBUttonLep">Write To Us</a></li>
                 <div class="closeMenu text-white"><i class="fa fa-times"></i></div>
                 <span class="icons">

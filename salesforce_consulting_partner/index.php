@@ -1,5 +1,9 @@
 <!-- header include  -->
-<?php include "../client/app/header.php"; ?>
+<?php
+include "../client/app/header.php";
+include "../admin/databash/dbConnect.php";
+
+?>
 <!-- header include ENd -->
 
 <!--============= body container =========== -->
@@ -212,41 +216,18 @@
     <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  offset-md-3">
             <div class="clinet owl-carousel owl-theme text-center" id="ourclinet">
-                <div class="item">
-                    <a href="#!" target="_blank" rel="noopener noreferrer">
-                        <img src="../client//imageFoleder//absaClinet.png" alt="ClineLogo" class="ClineLogo">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#!" target="_blank" rel="noopener noreferrer">
-                        <img src="../client//imageFoleder//cloudeSRClinet.png" alt="ClineLogo" class="ClineLogo">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#!" target="_blank" rel="noopener noreferrer">
-                        <img src="../client//imageFoleder//xqlClinet.png" alt="ClineLogo" class="ClineLogo">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#!" target="_blank" rel="noopener noreferrer">
-                        <img src="../client//imageFoleder//boschClinet.png" alt="ClineLogo" class="ClineLogo">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#!" target="_blank" rel="noopener noreferrer">
-                        <img src="../client//imageFoleder//foogalClinet.png" alt="ClineLogo" class="ClineLogo">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#!" target="_blank" rel="noopener noreferrer">
-                        <img src="../client//imageFoleder//bellhopClinet.png" alt="ClineLogo" class="ClineLogo">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#!" target="_blank" rel="noopener noreferrer">
-                        <img src="../client//imageFoleder//dynamicClinet.png" alt="ClineLogo" class="ClineLogo">
-                    </a>
-                </div>
+                <?php
+                // / Fetch client data from the database
+                $query = "SELECT * FROM clients";
+                $result = mysqli_query($conn, $query);
+                while ($row = mysqli_fetch_assoc($result)) {
+                ?>
+                    <div class="item">
+                        <a href=" <?php echo $row['clients_Weblink']; ?>" target="_blank">
+                            <img src="<?php echo $row['clients_image']; ?>" alt="<?php echo $row['Client_name']; ?>">
+                        </a>
+                    </div>
+                <?php } ?>
             </div>
         </div>
     </div>
