@@ -51,7 +51,7 @@
     <div class="row mb-3 p-3">
       <div class="col-lg-3 mb-3">
         <h5>COMPANY PROFILE</h5>
-        <a href="CodM Campany Profile.pdf" target="_blank"><button class="btn btn-primary text-uppercase mb-3" type="button"> download <i class="fas fa-download"></i> </button></a>
+        <a href="../CodM Campany Profile.pdf" target="_blank"><button class="btn btn-primary text-uppercase mb-3" type="button"> download <i class="fas fa-download"></i> </button></a>
         <br>
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCXthwczjWNxYx9Ti5bJ2hDg" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
@@ -93,7 +93,7 @@
     <!-- Copyright -->
     <div class="text-center p-1">
       © 2023 Copyright:
-      <a class="text-white" href="/">CodM Software Pvt. Ltd.</a>
+      <a class="text-white" href="index">CodM Software Pvt. Ltd.</a>
     </div>
     <!-- Copyright -->
   </div>
