@@ -23,15 +23,10 @@ include "../admin/app/Dashboard_header.php";
             <div class="col-sm-12 col-lg-4">
               <div class="card card-hover">
                 <div class="card-body">
-                  <div class="d-flex">
-                    <div class="mr-4">
-                      <small>Wallet Balance</small>
-                      <h4 class="mb-0">$3,567.53</h4>
+                    <div class="mx-auto">
+                      <small>Total Blogs</small>
+                      <h4>0</h4>
                     </div>
-                    <div class="chart ml-auto">
-                      asdfadf
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -54,6 +49,21 @@ include "../admin/app/Dashboard_header.php";
             <!-- column -->
             <div class="col-sm-12 col-lg-4">
               <div class="card card-hover bg-green">
+                <div class="card-body">
+                  <div class="d-flex">
+                    <div class="mr-4">
+                      <small>Wallet Balance</small>
+                      <h4 class="mb-0">$3,567.53</h4>
+                    </div>
+                    <div class="chart ml-auto">
+                      asdfadf
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="card card-hover ">
                 <div class="card-body">
                   <div class="d-flex">
                     <div class="mr-4">
