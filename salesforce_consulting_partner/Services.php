@@ -143,7 +143,7 @@ Development
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
                 <div class="services-project">
                   <div class="serv-top-num">
-                    6
+                    7
                   </div>
                   <div class="serv-po-head">Data Migration</div>
                   <p>We offer Data Coalition, Expansive Storage, Data Monitoring and Salesforce Data Migration is one of
@@ -155,7 +155,7 @@ Development
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
                 <div class="services-project">
                   <div class="serv-top-num">
-                    6
+                    8
                   </div>
                   <div class="serv-po-head">Testing and Deployment</div>
                   <p>Our team completed configuration and cunstomization work, then start the process of testing and 

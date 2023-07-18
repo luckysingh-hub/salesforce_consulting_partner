@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,8 +38,10 @@
     <link rel="stylesheet" href="../client//cssFile//index.css">
     <link rel="stylesheet" href="../client//cssFile//Aboutus.css">
     <link rel="stylesheet" href="../client//cssFile//Services.css">
+    <link rel="stylesheet" href="../client//cssFile//Titan_Product.css">
     <link rel="stylesheet" href="../client//cssFile//Career.css">
     <link rel="stylesheet" href="../client//cssFile//Job_Seeker_Form.css">
+    <link rel="stylesheet" href="../client//cssFile//blog.css">
     <link rel="stylesheet" href="../client//cssFile//ContactUs.css">
     <!-- Custom Css File ENd -->
 
@@ -95,8 +96,29 @@
                  <li><a href="index">Home</a></li>
                 <li><a href="AboutUs">About Us</a></li>
                 <li><a href="Services">Services</a></li>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Titan_forms">Titan Forms</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Titan Docs</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Titan Sign</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Titan CLM</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Titan Survey</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Titan Web</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Titan Flow</a></li>
+              </ul>
+            </li>
                 <li><a href="Career">Career</a></li>
-                <li><a href="#!">Blogfffff</a></li>
+
                 <li><a href="ContactUs" class="contactBUttonLep">Write To Us</a></li>
                 <div class="closeMenu text-white"><i class="fa fa-times"></i></div>
                 <span class="icons">
@@ -107,7 +129,7 @@
                 </span>
             </ul>
                 </div>
-            <li><a href="ContactUs" class="text-white ms-2  px-4 py-3 contactBUtton">Write To Us</a></li>
+            <li><a href="ContactUs" class="text-white  px-4 py-2 contactBUtton">Write To Us</a></li>
         </div>
         
         </nav>
