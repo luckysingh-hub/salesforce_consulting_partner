@@ -1,6 +1,6 @@
 <?php
 include "../admin/app/Dashboard_header.php";
-include("../admin/databash/dbConnect.php");
+include"../admin/databash/dbConnect.php";
 ?>
 <style>
     table{
@@ -55,32 +55,34 @@ include("../admin/databash/dbConnect.php");
         </form>
 
         <hr>
-        <?php
-
-$blogdisplyaadmin = "SELECT * FROM `blog` ORDER BY id DESC ";
-$blogresultadmin = mysqli_query($conn, $blogdisplyaadmin);
-while($blogdataadmin = mysqli_fetch_assoc($blogresultadmin)){
-?>
-        <table class="table">
+          <table class="table">
     <tr>
     <th>Titel</th>
     <th>Date</th>
     <th>Update</th>
     <th>Delete</th>
 </tr>
+        <?php
+
+$blogdisplyaadmin = "SELECT * FROM `blogs` ";
+$blogresultadmin = mysqli_query($conn, $blogdisplyaadmin);
+while($blogdataadmin = mysqli_fetch_assoc($blogresultadmin)){
+?>
+      
 
 <tr>
-    <td><?php echo $blogdataadmin['blog_titel'] ?></td>
+    <td><?php echo $blogdataadmin['blog_tital'] ?></td>
     <td><?php echo $blogdataadmin['blog_date']  ?></td>
-    <td style="width:10%;"><a href="../admin/Edit_blog.php?id=<?php echo $blogdataadmin['id']?>">Edit</a></td>
-    <td style="width:10%;"><a href="../admin/blog_delete.php?id=<?php echo $blogdataadmin['id']?>">Delete</a></td>
+    <!-- <td style="width:10%;"><a href="../admin/Edit?id=<?php echo $blogdataadmin['id']?>">Edit</a></td>
+    <td style="width:10%;"><a href="../admin/delete?id=<?php echo $blogdataadmin['id']?>">Delete</a></td> -->
 </tr>
 
 
-</table>
 <?php
           }
 ?>
+</table>
+
     </div>
 </main>
 <?php

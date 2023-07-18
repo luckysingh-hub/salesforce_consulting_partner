@@ -17,7 +17,8 @@ if (isset($_POST['blogSubmit'])) {
         echo 'window.location.href = "../admin/Blog_Upload_Dashboard.php"';
         echo '</script>';    } 
     
-    $BlogQuery = "INSERT INTO `blog`(`blog_image`, `blog_titel`, `blog_date`, `blog_con`) VALUES ('$bimgFile','$blogTitel','$blogdate','$long_desc')";
+    $BlogQuery = "INSERT INTO `blogs`( `blog_image`, `blog_con`, `blog_tital`, `blog_date`) VALUES ('$bimgFile','$long_desc','$blogTitel','$blogdate')";
+    
     $blogdbResult = mysqli_query($conn, $BlogQuery);
     if(!$blogdbResult){
         echo "Failed to upload image in databash";
