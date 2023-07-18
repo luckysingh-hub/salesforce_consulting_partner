@@ -73,8 +73,6 @@ while($blogdataadmin = mysqli_fetch_assoc($blogresultadmin)){
 <tr>
     <td><?php echo $blogdataadmin['blog_tital'] ?></td>
     <td><?php echo $blogdataadmin['blog_date']  ?></td>
-    <!-- <td style="width:10%;"><a href="../admin/Edit?id=<?php echo $blogdataadmin['id']?>">Edit</a></td>
-    <td style="width:10%;"><a href="../admin/delete?id=<?php echo $blogdataadmin['id']?>">Delete</a></td> -->
 </tr>
 
 
