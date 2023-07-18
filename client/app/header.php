@@ -118,7 +118,7 @@
               </ul>
             </li>
                 <li><a href="Career">Career</a></li>
-                <li><a href="Blog">Blog</a></li>
+
                 <li><a href="ContactUs" class="contactBUttonLep">Write To Us</a></li>
                 <div class="closeMenu text-white"><i class="fa fa-times"></i></div>
                 <span class="icons">
