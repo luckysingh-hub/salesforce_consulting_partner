@@ -1,6 +1,6 @@
 <?php
 include "../admin/app/Dashboard_header.php";
-include"../admin/databash/dbConnect.php";
+include "../admin/databash/dbConnect.php";
 ?>
 <style>
     table{
