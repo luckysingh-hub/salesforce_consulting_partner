@@ -8,7 +8,7 @@ include "../admin/databash/dbConnect.php";
 <section class="container mt-5">
     <div class="row mx-auto">
     <?php
-            $blogdisplya = "SELECT * FROM `blogs` ";
+            $blogdisplya = "SELECT * FROM `blogs` ORDER BY blog_id DESC ";
             $blogresult = mysqli_query($conn, $blogdisplya);
             while ($blogrow = mysqli_fetch_assoc($blogresult)) {
             ?>
