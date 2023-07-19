@@ -17,7 +17,6 @@ if (isset($_POST['blogSubmit'])) {
         echo '<script>';
         echo 'window.location.href = "../admin/Blog_Upload_Dashboard.php"';
         echo '</script>';    } 
-    
     $BlogQuery = "INSERT INTO `blogs`(`blog_image`, `blog_con`, `blog_tital`, `blog_UI_pra`, `blog_date`) VALUES ('$bimgFile','$long_desc','$blogTitel','$blogUIConn','$blogdate')";
 
     
