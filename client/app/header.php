@@ -51,6 +51,7 @@
 
     <!-- CSS bootstrap start -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <!-- CSS bootstrap end -->
 
     <!-- jQuary start -->
@@ -96,12 +97,12 @@
                  <li><a href="index">Home</a></li>
                 <li><a href="AboutUs">About Us</a></li>
                 <li><a href="Services">Services</a></li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Products
               </a>
-              <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="Titan_forms">Titan Forms</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Titan Docs</a></li>
@@ -115,9 +116,10 @@
                 <li><a class="dropdown-item" href="#">Titan Web</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Titan Flow</a></li>
-              </ul> -->
-            </li>
+              </ul> 
+            </li>-->
                 <li><a href="Career">Career</a></li>
+                <li><a href="Blog">Blog</a></li>
 
                 <li><a href="ContactUs" class="contactBUttonLep">Write To Us</a></li>
                 <div class="closeMenu text-white"><i class="fa fa-times"></i></div>
