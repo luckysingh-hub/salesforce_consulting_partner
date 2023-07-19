@@ -11,7 +11,7 @@ $row = mysqli_fetch_assoc($result);
 ?>
 
 <section id="banner" style="background-image:url(../client//imageFoleder//bannerBlog.jpg);">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center"> Check out our Blogs, Don’t miss them!!</h3>
+    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center"><?php echo $row['blog_tital']; ?></h3>
 </section>
 
 <section class="container mt-5">
