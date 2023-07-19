@@ -1,0 +1,26 @@
+#blog_wepper #blogimagebanner{
+    max-width:100%;
+    width: 100%;
+     max-height: 200px;
+     height: 200px;
+ }
+ #blog_wepper h4{
+     font-size: 21px;
+     color: #000;
+ }
+ #blog_wepper p{
+     font-size: 16px;
+     color: #918f8f !important;
+     line-height: 22px;
+     width: 100%;
+     max-height: 110px;
+     overflow: hidden;
+ }
+ #blog_wepper .main-blog-info {
+     font-size: 17px;
+     color: #29ade4;
+     font-weight: 600;
+ }
+ .main-blog-info .blogLine {
+     margin: 0 10px;
+ }
