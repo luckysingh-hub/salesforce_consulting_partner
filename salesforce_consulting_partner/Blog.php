@@ -12,6 +12,7 @@ include "../admin/databash/dbConnect.php";
             $blogresult = mysqli_query($conn, $blogdisplya);
             while ($blogrow = mysqli_fetch_assoc($blogresult)) {
             ?>
+            
         <div class="col-lg-4 mb-4" id="blog_wepper">
             <a href="Full_Blog_Prevriew.php?id=<?php echo $blogrow['id'] ?>">
                 <img src="../admin/Blog_images/<?php echo $blogrow['blog_image']; ?>" alt="<?php echo $blogrow['blog_tital']; ?>" id="blogimagebanner">
