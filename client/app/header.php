@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodM Software Pvt. Ltd.</title>
+    <title>CodM Software</title>
     <META HTTP-EQUIV="Content-type" CONTENT="text/php; charset=UTF-8">
 
     <!-- website description for google bot  -->
@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="../client//cssFile//index.css">
     <link rel="stylesheet" href="../client//cssFile//Aboutus.css">
     <link rel="stylesheet" href="../client//cssFile//Services.css">
-    <link rel="stylesheet" href="../client//cssFile//Titan_Product.css">
+    <link rel="stylesheet" href="../client//cssFile//TitanProduct.css">
     <link rel="stylesheet" href="../client//cssFile//Career.css">
     <link rel="stylesheet" href="../client//cssFile//Job_Seeker_Form.css">
     <link rel="stylesheet" href="../client//cssFile//blog.css">
@@ -97,7 +97,7 @@
                  <li><a href="index">Home</a></li>
                 <li><a href="AboutUs">About Us</a></li>
                 <li><a href="Services">Services</a></li>
-                <!-- <li class="nav-item dropdown">
+                <!---<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Products
@@ -117,7 +117,7 @@
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Titan Flow</a></li>
               </ul> 
-            </li>-->
+            </li>--->
                 <li><a href="Career">Career</a></li>
                 <li><a href="Blog">Blog</a></li>
 

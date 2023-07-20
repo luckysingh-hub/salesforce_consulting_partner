@@ -13,7 +13,7 @@ include "../admin/databash/dbConnect.php";
             while ($blogrow = mysqli_fetch_assoc($blogresult)) {
             ?>
             
-        <div class="col-lg-4 mb-4" id="blog_wepper">
+        <div class="col-lg-4 col-md-6 mb-4" id="blog_wepper">
             <a href="Full_Blog_Prevriew.php?blog_id=<?php echo $blogrow['blog_id']; ?>">
                 <img src="../admin/Blog_images/<?php echo $blogrow['blog_image']; ?>" alt="<?php echo $blogrow['blog_tital']; ?>" id="blogimagebanner">
                 <h4 class="mt-2"><?php echo $blogrow['blog_tital']; ?></h4>
@@ -23,7 +23,7 @@ include "../admin/databash/dbConnect.php";
             <div class="main-blog-info">
                 <span class="text-muted"><?php echo $blogrow['blog_date']; ?></span>
                 <span class="blogLine">|</span>
-                <span>Codm Team</span>
+                <span>CodM Team</span>
                 <i class="fa-solid fa-eye text-muted"></i>
             </div>
 
