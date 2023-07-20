@@ -80,7 +80,7 @@ Development
                   <p>Transform your customer experience with Salesforce Omnistudio, the ultimate solution for seamless
                      multichannel engagement and personalized interactions. Increase revenue, improve productivity, and 
                      boost customer satisfaction like never before.</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
@@ -91,7 +91,7 @@ Development
                   <div class="serv-po-head">Salesforce Industries Cloud</div>
                   <p>Harness the power of industry-specific solutions, drive innovation, streamline processes, and 
                     deliver exceptional customer experiences with Salesforce Industries Cloud</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
@@ -103,7 +103,7 @@ Development
                   <p>CodM provide REST, SOAP, BULK, Composite and Apex web services APIs transactional access to create, 
                     read, edit and delete data. it allow Composite resources include collections and graphs to allow you 
                     to interact with related data in one API call .</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="../salesforce_consulting_partner/API_Integration.php" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
@@ -115,7 +115,7 @@ Development
                   <p>CodM will help your business to achieve a seamless Salesforce Lightning implementation. We are the 
                     best Salesforce lightning builders. The best thing is that we are not required to alter the way we
                      perform our business to let the Salesforce CRM fit perfectly.</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="../salesforce_consulting_partner/Salesforce_Implementation.php" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
@@ -125,7 +125,7 @@ Development
                   </div>
                   <div class="serv-po-head">Consulting Services</div>
                   <p>CodM provide REST, SOAP, BULK, Composite and Apex web services APIs transactional access to create, read, edit and delete data. it allow Composite resources include collections and graphs to allow you to interact with related data in one API call .</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
@@ -137,7 +137,7 @@ Development
                   <p>A well-maintained CRM is a key to customer satisfaction. The Salesforce maintenance service 
                     specialists at CodM use their in-depth CRM knowledge to ensure a consistent operation of your 
                     Salesforce CRM system. To ensure that your CRM experience is seamless,</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
@@ -149,7 +149,7 @@ Development
                   <p>We offer Data Coalition, Expansive Storage, Data Monitoring and Salesforce Data Migration is one of
                      the most challenging and critical tasks for any team before implementing go-live. Salesforce data
                       migration can vary on factors like the amount of data, quality of data, and how many sources, etc.</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
             <div class="col-lg-4 col-md-6 mb-2 mb-3">
@@ -162,7 +162,7 @@ Development
                     deployment.We have best team for software testing and all are good in Quality Assurance, a great
                      thing about Salesforce is that many of the out-of-box features can be customized to suit a
                       company’s needs.</p>
-                       <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i>
+                       <!-- <a href="#!" class="text-dark">Read more</a> <i class="fa-regular fa-circle-right"></i> -->
                 </div>
               </div>
        </div>

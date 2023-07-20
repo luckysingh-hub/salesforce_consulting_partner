@@ -53,7 +53,7 @@
 <h4 class="text-center text-white"> Do you have what it takes to be the best, Then check out our job openings</h4>
 <p class="text-center text-white"> Are you looking for Salesforce jobs? Explore the world of exciting opportunities at CodM</p>
 <div class="text-center">
-<a href="../salesforce_consulting_partner/Job_Seeker_Form" class="btn btn-secondary text-uppercase">job opening post</a>
+<a href="#!" class="btn btn-secondary text-uppercase">job opening post</a>
 
 </div>
 </div>

@@ -14,7 +14,7 @@ $row = mysqli_fetch_assoc($result);
     <h3 class="line-1 anim-typewriter text-uppercase text-white text-center"><?php echo $row['blog_tital']; ?></h3>
 </section>
 
-<section class="container mt-5">
+<section class="container mt-2">
     <div class="row">
         <div class="col-lg-9">
         <!-- <img src="../admin//Blog_images/cpqprice.png" alt="" class="F-banner-image"> -->
