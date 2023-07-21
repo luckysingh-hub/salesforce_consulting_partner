@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="../client//cssFile//index.css">
     <link rel="stylesheet" href="../client//cssFile//Aboutus.css">
     <link rel="stylesheet" href="../client//cssFile//Services.css">
+    <link rel="stylesheet" href="../client//cssFile//Services_full_page.css">
     <link rel="stylesheet" href="../client//cssFile//TitanProduct.css">
     <link rel="stylesheet" href="../client//cssFile//Career.css">
     <link rel="stylesheet" href="../client//cssFile//Job_Seeker_Form.css">
@@ -97,15 +98,15 @@
                  <li><a href="index">Home</a></li>
                 <li><a href="AboutUs">About Us</a></li>
                 <li><a href="Services">Services</a></li>
-                <!---<li class="nav-item dropdown">
+                <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="Titan_forms">Titan Forms</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Titan Docs</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <!-- <li><a class="dropdown-item" href="#">Titan Docs</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Titan Sign</a></li>
                 <li><hr class="dropdown-divider"></li>
@@ -115,9 +116,9 @@
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Titan Web</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Titan Flow</a></li>
+                <li><a class="dropdown-item" href="#">Titan Flow</a></li> -->
               </ul> 
-            </li>--->
+            </li>
                 <li><a href="Career">Career</a></li>
                 <li><a href="Blog">Blog</a></li>
 
