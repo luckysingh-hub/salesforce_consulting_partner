@@ -199,7 +199,7 @@ include "../admin/databash/dbConnect.php";
                 who can handle the ongoing projects without any hassle. Doesn’t matter what the project is, we assure
                 to avail the right person for the job.</div>
 
-            <a href="Career.php" class="btn btn-primary px-4">Explore more</a>
+            <a href="Career" class="btn btn-primary px-4">Explore more</a>
         </div>
     </div>
 </section>
