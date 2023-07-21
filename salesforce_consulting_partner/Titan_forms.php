@@ -27,7 +27,7 @@
                 <div class="T-form-subTital pt-4">Titan's Salesforce Forms reate custom forms, collect data, and automate processes with our drag-and-drop form builder. No coding required, Bi-Salesforce Integration with any object</div>
             </div>
             <div class="col-lg-5 mx-auto">
-                <img src="../client//imageFoleder//Titan_form_1.png" alt="form-1" class="w-100">
+                <img src="../client//imageFoleder//titan_form_1.png" alt="form-1" class="w-100">
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 mx-auto align-self-center">
-                <img src="../client//imageFoleder//Titan_form_5.png" alt="form-5" class="w-100">
+                <img src="../client//imageFoleder//titan_form_5.png" alt="form-5" class="w-100">
             </div>
             <div class="col-lg-7 mx-auto  align-self-center ps-5">
                 <div class="T-form-tital ">Automate repetitive tasks and templates</div>
