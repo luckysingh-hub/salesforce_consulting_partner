@@ -71,16 +71,18 @@ nav {
 .topContact{
   display: flex;
   list-style: none; 
-   column-gap:22px;
   /* align-items: center; */
+  justify-content: space-between;
   padding: 7px 0px;
   font-weight: 600;
   color: #686565 !important;
   background-color: #2ABFF5;
 }
-.topContact li {
-display: inline-block;
+.topContact .topInfo{
+  padding-left: 20px;
+
 }
+
 nav .mainMenuTop{
   display: flex;
   align-items: baseline;
@@ -117,6 +119,7 @@ nav .mainMenu li a {
 nav .mainMenu li a:hover {
   background:rgb(138, 4, 4);
   color: #ffffff !important;
+  width: 100%;
 }
 nav .openMenu {
   font-size: 2rem;
@@ -193,6 +196,7 @@ nav .logo {
   nav .mainMenu li a{
     color: #ffffff !important;
     padding: 15px;
+  
   }
 }
 
