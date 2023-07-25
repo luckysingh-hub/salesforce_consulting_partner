@@ -113,7 +113,7 @@
               <ul class="dropdown-menu">
                 <li><a href="Forms">Titan Form</a></li>
                 <li><hr class="dropdown-divider"></li>
-               <li><a href="docs">Titan doc</a></li>
+               <li><a href="Docs">Titan doc</a></li>
                  <li><hr class="dropdown-divider"></li>
                 <li><a href="e-signature">Titan Sign</a></li>
                 <!-- <li><hr class="dropdown-divider"></li>
