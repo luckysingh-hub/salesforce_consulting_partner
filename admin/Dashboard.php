@@ -1,6 +1,6 @@
-
 <?php
 include "../admin/app/Dashboard_header.php";
+include "../admin/databash/dbConnect.php";
 ?>
       <main>
         <div class="page-breadcrumb">
@@ -25,55 +25,58 @@ include "../admin/app/Dashboard_header.php";
                 <div class="card-body">
                     <div class="mx-auto">
                       <small>Total Blogs</small>
-                      <h4>0</h4>
+                      <?php
+                $blogdisplayquery = "SELECT * FROM `blogs`";
+                $blogresult = mysqli_query($conn, $blogdisplayquery);
+                $blogrowcount = mysqli_num_rows($blogresult);
+                ?>
+                      <h4><?php printf($blogrowcount); ?></h4>
+                    </div>
+                </div>
+              </div>
+            </div>
+           
+           
+            <!-- column -->
+            <div class="col-sm-12 col-lg-4">
+              <div class="card card-hover  bg-red">
+                <div class="card-body">
+                    <div class="mx-auto">
+                      <small>Total Client</small>
+                      <?php
+                $clinetQuery = "SELECT * FROM `clients`";
+                $clinetresult = mysqli_query($conn, $clinetQuery);
+                $clinetrowcount = mysqli_num_rows($clinetresult);
+                ?>
+                      <h4><?php printf($clinetrowcount); ?></h4>
                     </div>
                 </div>
               </div>
             </div>
             <!-- column -->
             <div class="col-sm-12 col-lg-4">
-              <div class="card card-hover bg-red">
+              <div class="card card-hover  bg-green">
                 <div class="card-body">
-                  <div class="d-flex">
-                    <div class="mr-4">
-                      <small>Wallet Balance</small>
-                      <h4 class="mb-0">$3,567.53</h4>
+                    <div class="mx-auto">
+                      <small>Total Blogs</small>
+                      <?php
+                $eventdisplayquery = "SELECT * FROM `event_images`";
+                $eventresult = mysqli_query($conn, $eventdisplayquery);
+                $eventrowcount = mysqli_num_rows($eventresult);
+                ?>
+                      <h4><?php printf($eventrowcount); ?></h4>
                     </div>
-                    <div class="chart ml-auto">
-                      asdfadf
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- column -->
-            <div class="col-sm-12 col-lg-4">
-              <div class="card card-hover bg-green">
-                <div class="card-body">
-                  <div class="d-flex">
-                    <div class="mr-4">
-                      <small>Wallet Balance</small>
-                      <h4 class="mb-0">$3,567.53</h4>
-                    </div>
-                    <div class="chart ml-auto">
-                      asdfadf
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-lg-6">
               <div class="card card-hover ">
                 <div class="card-body">
-                  <div class="d-flex">
-                    <div class="mr-4">
-                      <small>Wallet Balance</small>
-                      <h4 class="mb-0">$3,567.53</h4>
-                    </div>
-                    <div class="chart ml-auto">
-                      asdfadf
-                    </div>
-                  </div>
+                      <small>Drop Your Message</small>
+                      <form action="" method="Post">
+                     <input type="text" class="form-control mt-2">
+                     <input type="button" value="submit" class="mt-2">
+                      </form>
                 </div>
               </div>
             </div>
@@ -83,6 +86,11 @@ include "../admin/app/Dashboard_header.php";
 
       <?php
 include "../admin/app/Dashboard_Footer.php";
+?>
+<?php
+
+
+
 ?>
 
 

@@ -2,7 +2,7 @@
 <?php include "../client/app/header.php"; ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
+<section style="background-image: url(../client//imageFoleder/bannerHeade2\ \(1\).jpg);" id="banner">
 <h3 class="line-1 anim-typewriter text-uppercase text-white text-center"> Looking for exciting career opportunities, Come Join us!!</h3>
 </section>
 

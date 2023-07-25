@@ -2,10 +2,8 @@
 <?php
 include "../client/app/header.php";
 include "../admin/databash/dbConnect.php";
-
 ?>
 <!-- header include ENd -->
-
 <!--============= body container =========== -->
 <section class="contianre-fluid bodyHeadBanerr" style="background-image: url(../client/imageFoleder/Basecamp_1920x1080_web.jpg);">
     <h1 id="typewriter" class="text-center mt-5 text-white"></h1>

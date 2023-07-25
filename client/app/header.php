@@ -82,11 +82,18 @@
 <body>
     <!--================= header ============ -->
     <header id="navbar">
-    <ul class="topContact ps-3">
-                    <li><i class="fa-solid fa-phone"></i> <span><a href="#!">IND : +91 9871717425</a></span></li>
-                    <li><i class="fa-solid fa-phone"></i> <span><a href="#!">UK : +44 7436934216</a></span></li>
-                    <li><i class="fa-solid fa-envelope"></i> <span><a href="#!"> hr@Codmsoftware.com</a></span></li>
-                </ul>
+    <div class="topContact ps-3">
+        <div>
+            <span class="topInfo"><i class="fa-solid fa-phone"></i> <span><a href="#!">IND : +91 9871717425</a></span></span>
+            <span class="topInfo"><i class="fa-solid fa-phone"></i> <span><a href="#!">UK : +44 7436934216</a></span></span>
+            <span class="topInfo"><i class="fa-solid fa-envelope"></i> <span><a href="#!"> hr@Codmsoftware.com</a></span></span>
+        </div>
+        <div>
+        <marquee  width="450"></marquee>
+
+        </div>
+
+    </div>
         <nav>
         <div class="logo">
                 <a href="index"><img src="../client/imageFoleder/logo/logo.png" alt="websiteLogo" class="headerImg my-2"></a>
@@ -99,17 +106,17 @@
                 <li><a href="AboutUs">About Us</a></li>
                 <li><a href="Services">Services</a></li>
                 <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" id="navbarDropdown"  data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Products
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="Titan_forms">Titan Forms</a></li>
-                <!-- <li><hr class="dropdown-divider"></li> -->
-                <!-- <li><a class="dropdown-item" href="#">Titan Docs</a></li>
+              <ul class="dropdown-menu">
+                <li><a href="Forms">Titan Form</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Titan Sign</a></li>
-                <li><hr class="dropdown-divider"></li>
+               <li><a href="docs">Titan doc</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                <li><a href="e-signature">Titan Sign</a></li>
+                <!-- <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Titan CLM</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Titan Survey</a></li>

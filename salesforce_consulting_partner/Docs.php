@@ -3,9 +3,8 @@
 <!-- header include ENd -->
 <!--============= body container =========== -->
 <section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">Unlimited possibilities for every use case and every object</h3>
+    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">Streamlining Salesforce DocGen Simplified Document Creation</h3>
 </section>
-
 <section class="mt-5">
     <div class="container">
         <div class="section-heading">
@@ -19,34 +18,22 @@
     </div>
 </section>
 
-<section class="F-T-margin-top">
-    <div class="container">
-        <div class="row ">
-            <div class="col-lg-7 mx-auto align-self-center pe-5">
-                <div class="T-form-tital align-self-center">Salesforce Forms for any Use Case and Object</div>
-                <div class="T-form-subTital pt-4">Titan's Salesforce Forms reate custom forms, collect data, and automate processes with our drag-and-drop form builder. No coding required, Bi-Salesforce Integration with any object</div>
-            </div>
-            <div class="col-lg-5 mx-auto">
-                <img src="../client//imageFoleder//titan_form_1.png" alt="form-1" class="w-100">
-            </div>
-        </div>
-    </div>
-</section>
+
+
 
 <section class="F-T-margin-top">
     <div class="container">
-        <div class="row ">
-            <div class="col-lg-5 mx-auto align-self-center">
-                <img src="../client//imageFoleder//titan_form_2.png" alt="form-2" class="w-100">
-            </div>
-            <div class="col-lg-7 mx-auto align-self-center ps-5">
-                <div class="T-form-tital">Get powerful & customized Salesforce Forms</div>
+        <div class="row">
+            <div class="col-lg-7 mx-auto align-self-center order-md-2 p-md-5">
+                <div class="T-form-tital">Build custom dynamic documents from Salesforce</div>
                 <div class="T-form-subTital pt-4">Titan's Salesforce Forms reate custom forms, collect data, and automate processes with our drag-and-drop form builder. No coding required, Bi-Salesforce Integration with any object</div>
                 <div class="mt-4"><span><i class="fa-solid fa-check T-bg-color"></i></span> <span class="fw-bold">Build</span></div>
                 <div class="mt-3"><span><i class="fa-solid fa-check T-bg-color"></i></span> <span class="fw-bold">Deploy</span></div>
                 <div class="mt-3"><span><i class="fa-solid fa-check T-bg-color"></i></span> <span class="fw-bold">Integrate</span></div>
             </div>
-
+            <div class="col-lg-5 mx-auto align-self-center ">
+                <img src="../client//imageFoleder//doc-2.png" alt="form-2" class="w-100">
+            </div>
         </div>
     </div>
 </section>
@@ -73,16 +60,32 @@
     </div>
 </section>
 
-
 <section class="F-T-margin-top">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-5 mx-auto align-self-center ">
-                <img src="../client//imageFoleder//titan_form-3.png" alt="form-3" class="w-100">
+        <div class="row ">
+
+            <div class="col-lg-7 mx-auto align-self-center  p-md-5">
+                <div class="T-form-tital align-self-center">Easily generate custom document templates</div>
+                <div class="T-form-subTital pt-4">Build custom contracts, proposals, and invoices directly from Salesforce in seconds — all without a single line of code.</div>
             </div>
-            <div class="col-lg-7 mx-auto align-self-center ps-5">
-                <div class="T-form-tital">Easily embed forms using Script or iFrame</div>
-                <div class="T-form-subTital pt-5">Publish and embed fully responsive dynamic forms for Salesforce directly to a web page, form, or document using both Script and iFrame.</div>
+                    <div class="col-lg-5 mx-auto">
+                <img src="../client//imageFoleder//Easilygeneratecustom.png" alt="form-1" class="w-100">
+            </div>
+           
+        </div>
+    </div>
+</section>
+<!-- 
+<section class="F-T-margin-top">
+    <div class="container">
+        <div class="row ">
+
+            <div class="col-lg-7 mx-auto align-self-center p-md-5 order-md-2">
+                <div class="T-form-tital align-self-center">Go interactive</div>
+                <div class="T-form-subTital pt-4">Add interactive capabilities that will allow you to write data directly from the document to any object in Salesforce.</div>
+            </div>
+            <div class="col-lg-5 mx-auto ">
+                <img src="../client//imageFoleder//go-interactive.png.webp" alt="form-1" class="w-100">
             </div>
         </div>
     </div>
@@ -91,45 +94,29 @@
 <section class="F-T-margin-top">
     <div class="container">
         <div class="row ">
-            <div class="col-lg-7 mx-auto align-self-center pe-5">
-                <div class="T-form-tital ">Push and pull real-time Salesforce data</div>
-                <div class="T-form-subTital pt-5">Share bi-directional documents with the ability to push and pull real-time data directly from your team’s Salesforce databases.</div>
+
+            <div class="col-lg-7 mx-auto align-self-center p-md-5">
+                <div class="T-form-tital align-self-center">Read anything from Salesforce </div>
+                <div class="T-form-subTital pt-4">Read any field from any object or report in Salesforce and display it in any format.</div>
             </div>
-            <div class="col-lg-5 mx-auto align-self-center">
-                <img src="../client//imageFoleder//titan_form-4.png" alt="form-4" class="w-100">
+            <div class="col-lg-5 mx-auto">
+                <img src="../client//imageFoleder//read-anything-for-salesforce.png.webp" alt="form-1" class="w-100">
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-
-<section class="mt-5">
+<section class="F-T-margin-top">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-5 mx-auto align-self-center">
-                <img src="../client//imageFoleder//titan_form_5.png" alt="form-5" class="w-100">
+        <div class="row ">
+        <div class="col-lg-5 mx-auto">
+                <img src="../client//imageFoleder//doc-6.png" alt="form-1" class="w-100">
             </div>
-            <div class="col-lg-7 mx-auto  align-self-center ps-5">
-                <div class="T-form-tital ">Automate repetitive tasks and templates</div>
-                <div class="T-form-subTital pt-5">Easily create digital work processes between customers, partners, and employees in order to do more in less time.</div>
+            <div class="col-lg-7 mx-auto align-self-center ps-5">
+                <div class="T-form-tital align-self-center">Automate repetitive tasks and templates</div>
+                <div class="T-form-subTital pt-4">Easily create digital work processes between customers, partners, and employees in order to do more in less time.</div>
             </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 mx-auto align-self-center pe-5">
-                <div class="T-form-tital ">Built for real life scenarios</div>
-                <div class="T-form-subTital pt-5">Not like other form tools for Salesforce, our product is very flexible, it allows you to read and write from multiple objects in real time.</div>
-                <div class="T-form-subTital pt-4">You will be able to add any logic and also to work with any data structure: 1 to many, many to many, junction objects, lookup fields, formulas, list views, and related lists.</div>
-                <div class="T-form-subTital pt-4">Titan is The only product that enables you to edit bulk records, grid views and upload files, and to do whatever you want to do without any code.</div>
-            </div>
-            <div class="col-lg-5 mx-auto align-self-center">
-                <img src="../client//imageFoleder//titan_form_6.png" alt="form-6" class="w-100">
-            </div>
+           
         </div>
     </div>
 </section>
@@ -137,37 +124,33 @@
 <section class="mt-5">
     <div class="container">
         <div class="section-heading">
-            Titan Forms
+            Titan Docs
             <span>Features</span>
             <div class="section-line"></div>
         </div>
 
         <div class="row pt-4">
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="S-A-full_page_product">Conditional Logic</div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="S-A-full_page_product">Payment Integrations</div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="S-A-full_page_product">Maps & Schedulers</div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="S-A-full_page_product">Responsive Design</div>
+                <div class="S-A-full_page_product">Multiple Formats</div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="S-A-full_page_product">Dynamic Content</div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="S-A-full_page_product">Advanced Reports</div>
+                <div class="S-A-full_page_product">Digital Signatures</div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="S-A-full_page_product">Admin SSO Portals</div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="S-A-full_page_product">Collaborative Sharing</div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="S-A-full_page_product">Access Permissions</div>
             </div>
         </div>
     </div>
 </section>
-
-
-
-
 
 <!--============= body container End =========== -->
 <!-- footer include  -->
