@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,14 +18,14 @@
 
     <!-- twiter card  -->
     <meta property="og:title" content="CodM Software pvt. ltd.">
-  <meta property="og:description" content="Software Development and IT Services: CodM Software Pvt. Ltd. is a reputable software development company specializing in IT services. Since its establishment in 2021, the company has been dedicated to providing consultation, support, and development services to clients in various industries.">
-  <meta property="og:image" content="../client/imageFoleder/logo/CodMSoftware.png">
-  <meta property="og:url" content="https://www.CodMSoftware.com">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="CodM Software">
-  <meta property="og:locale" content="en_IND">
+    <meta property="og:description" content="Software Development and IT Services: CodM Software Pvt. Ltd. is a reputable software development company specializing in IT services. Since its establishment in 2021, the company has been dedicated to providing consultation, support, and development services to clients in various industries.">
+    <meta property="og:image" content="../client/imageFoleder/logo/CodMSoftware.png">
+    <meta property="og:url" content="https://www.CodMSoftware.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CodM Software">
+    <meta property="og:locale" content="en_IND">
     <!-- twiter card  -->
-    
+
     <!-- favicon Icon -->
     <link rel="android-chrome-icon" sizes="512x512" href="../client/faviconIcons/apple-touch-icon.png">
     <link rel="android-chrome-icon" sizes="192x192" href="./client./faviconIcons/apple-touch-icon.png">
@@ -47,12 +48,14 @@
     <!-- Custom Css File ENd -->
 
     <!-- font awesome link  start -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font awesome link  end -->
 
     <!-- CSS bootstrap start -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+
     <!-- CSS bootstrap end -->
 
     <!-- jQuary start -->
@@ -80,99 +83,152 @@
 </head>
 
 <body>
-    <!--================= header ============ -->
-    <header id="navbar">
+    <!--=============== HEADER ===============-->
     <div class="topContact ps-3">
         <div>
             <span class="topInfo"><i class="fa-solid fa-phone"></i> <span><a href="#!">IND : +91 9871717425</a></span></span>
             <span class="topInfo"><i class="fa-solid fa-phone"></i> <span><a href="#!">UK : +44 7436934216</a></span></span>
             <span class="topInfo"><i class="fa-solid fa-envelope"></i> <span><a href="#!"> hr@Codmsoftware.com</a></span></span>
         </div>
-        <div>
-        <marquee  width="450"></marquee>
-
-        </div>
-
+        <!-- <div>
+            <marquee width="450"></marquee>
+        </div> -->
     </div>
-        <nav>
-        <div class="logo">
-                <a href="index"><img src="../client/imageFoleder/logo/logo.png" alt="websiteLogo" class="headerImg my-2"></a>
-            </div>
-            <div class="mainMenuTop">
-                <div>
-            <div class="openMenu text-dark"><i class="fa fa-bars"></i></div>
-            <ul class="mainMenu">
-                 <li><a href="index">Home</a></li>
-                <li><a href="AboutUs">About Us</a></li>
-                <li><a href="Services">Services</a></li>
-                <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdown"  data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Products
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="Forms">Titan Form</a></li>
-                <li><hr class="dropdown-divider"></li>
-               <li><a href="Docs">Titan doc</a></li>
-                 <li><hr class="dropdown-divider"></li>
-                <li><a href="e-signature">Titan Sign</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a  href="clm-contract-lifecycle-management">Titan CLM</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a  href="survey">Titan Sur</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a  href="web-application">Titan Web</a></li>
-                <!-- <li><hr class="dropdown-divider"></li> -->
-                <!-- <li><a  href="flow-automation">Titan Flow</a></li> -->
-              </ul> 
-            </li>
-                <li><a href="Career">Career</a></li>
-                <li><a href="Blog">Blog</a></li>
-
-                <li><a href="ContactUs" class="contactBUttonLep">Write To Us</a></li>
-                <div class="closeMenu text-white"><i class="fa fa-times"></i></div>
-                <span class="icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-github"></i>
-                </span>
-            </ul>
+    <header class="header">
+        <nav class="nav_Header container">
+            <div class="nav__data">
+                <a href="index" class="nav__logo">
+                    <img src="../client/imageFoleder/logo/logo.png" alt="websiteLogo" class="header_logo my-2">
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
                 </div>
-            <li><a href="ContactUs" class="text-white  px-4 py-2 contactBUtton">Write To Us</a></li>
-        </div>
-        
+            </div>
+            <!--=============== NAV MENU ===============-->
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index" class="nav__link">Home</a>
+                    </li>
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Company <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content container">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-community-line"></i>
+                                    </div>
+                                    <span class="dropdown__title">Most viewed Informtion</span>
+
+                                    <ul class="dropdown__list ">
+                                        <li>
+                                            <a href="AboutUs" class="dropdown__link">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="Career" class="dropdown__link">Career</a>
+                                        </li>
+                                        <li>
+                                            <a href="Blog" class="dropdown__link">Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-pen-nib-line"></i>
+                                    </div>
+                                    <span class="dropdown__title"> We Serve to Industries</span>
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#!" class="dropdown__link">Education</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="dropdown__link">Bank</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="dropdown__link">Healthcare</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="dropdown__link">Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="dropdown__link">Finance</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="dropdown__link">Insurance</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group" id="titan_image">
+                                    <img src="../client//imageFoleder//newimage.png" alt="titan product" class="titan">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Products <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container ">
+                            <div class="dropdown__content container">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-code-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">TITAN Products</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="Forms" class="dropdown__link">Titan Form</a>
+                                        </li>
+                                        <li>
+                                            <a href="Docs" class="dropdown__link">Titan doc</a>
+                                        </li>
+                                        <li>
+                                            <a href="e-signature" class="dropdown__link">Titan Sign</a>
+                                        </li>
+                                        <li>
+                                            <a href="clm-contract-lifecycle-management" class="dropdown__link">Titan CLM</a>
+                                        </li>
+                                        <li>
+                                            <a href="survey" class="dropdown__link">Titan Survey</a>
+                                        </li>
+                                        <li>
+                                            <a href="web-application" class="dropdown__link">Titan Web</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Titan Flow</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__list" id="titan_ti">
+                                        Revolutionary platform 
+                                    </br> enables code-free web
+                                        </br> documents and applications
+                                    </div>
+                                </div>
+                                <div class="dropdown__group" id="titan_image">
+                                    <img src="../client//imageFoleder//titan_all_link_image.png" alt="titan product" class="titan">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="Services" class="nav__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="ContactUs" class="nav__link">Write To Us</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <!--============= phone navIcon =============== -->
-        <!--============= phone navIcon ENd =============== -->
-
-        <script>
-            const mainMenu = document.querySelector('.mainMenu');
-const closeMenu = document.querySelector('.closeMenu');
-const openMenu = document.querySelector('.openMenu');
-const menu_items = document.querySelectorAll('nav .mainMenu li a');
-
-
-
-
-openMenu.addEventListener('click',show);
-closeMenu.addEventListener('click',close);
-
-// close menu when you click on a menu item 
-menu_items.forEach(item => {
-    item.addEventListener('click',function(){
-        close();
-    })
-})
-
-function show(){
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '0';
-}
-function close(){
-    mainMenu.style.top = '-100%';
-}
-
-        </script>
     </header>
-    <!--================= header End ============ -->
