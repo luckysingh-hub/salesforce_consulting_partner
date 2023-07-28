@@ -105,6 +105,7 @@
 <!--============ javaScript Cdn============= -->
 <script src="../client//javascript//typerWriter.js"></script>
 <script src="../client//javascript//CountriesAPI.js"></script>
+<script src="../client//javascript//header-js.js"></script>
 
 <!--============ javaScript Cdn End============= -->
 
