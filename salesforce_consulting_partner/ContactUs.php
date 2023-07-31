@@ -12,7 +12,6 @@
 <section style="background-image: url(../client//imageFoleder/bannerHead3\ \(1\).jpg);" id="banner">
     <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">So now you’re here you know how to reach us. We’re happy to serve!!</h3>
 </section>
-
 <section class="mt-5">
     <div class="container">
         <div class="row">
@@ -21,8 +20,8 @@
             </div>
             <div class="col-lg-7">
                 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" autocomplete="off" >
-                    <input type=hidden name="oid" value="00D5i000008yVNX">
-                            <input type=hidden name="retURL" value="https://codmsoftware.com/salesforce_consulting_partner/ContactUs">
+                    <input type=hidden name="oid" value="00D5j00000CJvwz">
+                            <input type=hidden name="retURL" value="https://codmsoftware.com/salesforce_consulting_partner/ThankYou_For_Query">
                             <input type="hidden" name="lead_source" value="Web">
                     <div class="row">
                         <div class="col-lg-6 mb-3">
