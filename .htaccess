@@ -1,15 +1,16 @@
 DirectoryIndex salesforce_consulting_partner index.php
+
 DirectoryIndex admin login_form.php
 
-
 ErrorDocument 404 /salesforce_consulting_partner/404.html
+
 ErrorDocument 500 /salesforce_consulting_partner/500.html
+
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
 
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain
@@ -38,11 +39,9 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
     AddOutputFilterByType DEFLATE application/font-opentype
 </IfModule>
 
-
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
 RewriteRule ^(.*)$ https://example.com/$1 [R=301,L]
-
 
 <IfModule mod_mime.c>
     AddType application/javascript .js
