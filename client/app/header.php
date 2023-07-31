@@ -138,7 +138,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="dropdown__group">
+                                <!-- <div class="dropdown__group">
                                     <div class="dropdown__icon">
                                         <i class="ri-pen-nib-line"></i>
                                     </div>
@@ -163,7 +163,7 @@
                                             <a href="#!" class="dropdown__link">Insurance</a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> -->
                                 <div class="dropdown__group" id="titan_image">
                                     <img src="../client//imageFoleder//newimage.png" alt="titan product" class="titan">
                                 </div>
