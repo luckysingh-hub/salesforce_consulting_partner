@@ -25,6 +25,8 @@
     <meta property="og:site_name" content="CodM Software">
     <meta property="og:locale" content="en_IND">
     <!-- twiter card  -->
+    <link rel="canonical" href="https://codmsoftware.com/salesforce_consulting_partner/">
+
 
     <!-- favicon Icon -->
     <link rel="android-chrome-icon" sizes="512x512" href="../client/faviconIcons/apple-touch-icon.png">
@@ -92,10 +94,10 @@
         </div>
         <!-- <div>
             <marquee width="450"></marquee>
-        </div> -->
+        </div> -->      
     </div>
     <header class="header">
-        <nav class="nav_Header container">
+        <nav class="nav_Header container" aria-label="Breadcrumb" role="navigation">
             <div class="nav__data">
                 <a href="index" class="nav__logo">
                     <img src="../client/imageFoleder/logo/logo.png" alt="websiteLogo" class="header_logo my-2">
