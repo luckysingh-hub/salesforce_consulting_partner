@@ -49,18 +49,8 @@
         </div> -->
     <!-- <hr class="footerHrline mb-5"> -->
     <div class="row mb-3 p-3">
-      <div class="col-lg-3 mb-3">
-        <h5>COMPANY PROFILE</h5>
-        <a href="../client/CodM Campany Profile.pdf" target="_blank"><button class="btn btn-primary text-uppercase mb-3" type="button"> download <i class="fas fa-download"></i> </button></a>
-        <br>
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCXthwczjWNxYx9Ti5bJ2hDg" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/company/codmsoftware/mycompany/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/CodmSoftwa" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
-      </div>
-      <div class="col-lg-9">
+
+      <div class="col-lg-9 order-md-2 mb-3">
         <div class="owl-carousel" id="AllCetificat">
           <div class="cetificat">
             <img src="../client/imageFoleder//omniStudioDeveloper.webp" alt="omniStudioDeveloper" class="w-100">
@@ -87,6 +77,17 @@
             <img src="../client/imageFoleder//applicationArchitect.webp" alt="applicationArchitect" class="w-100">
           </div>
         </div>
+      </div>
+      <div class="col-lg-3 mb-3 ">
+        <h5>COMPANY PROFILE</h5>
+        <a href="../client/CodM_MediaDeck.pdf" target="_blank"><button class="btn btn-primary text-uppercase mb-3" type="button"> download <i class="fas fa-download"></i> </button></a>
+        <br>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCXthwczjWNxYx9Ti5bJ2hDg" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/company/codmsoftware/mycompany/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/CodmSoftwa" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
       </div>
     </div>
     <hr class="footerHrline mb-3">
