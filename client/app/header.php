@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="../client//cssFile//index.css">
     <link rel="stylesheet" href="../client//cssFile//Aboutus.css">
     <link rel="stylesheet" href="../client//cssFile//Services.css">
+    <link rel="stylesheet" href="../client/cssFile/Api.css">
     <link rel="stylesheet" href="../client//cssFile//Services_full_page.css">
     <link rel="stylesheet" href="../client//cssFile//TitanProduct.css">
     <link rel="stylesheet" href="../client//cssFile//Career.css">
@@ -223,10 +224,60 @@
                             </div>
                         </div>
                     </li>
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                        Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
 
-                    <li>
-                        <a href="Services" class="nav__link">Services</a>
-                    </li>
+                        <div class="dropdown__container ">
+                            <div class="dropdown__content container">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-code-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Services Offered</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">OMNISTUDIO</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
+                                        </li>
+                                        <li>
+                                            <a href="API_integration" class="dropdown__link">API INTEGRATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="Implementation-Services" class="dropdown__link">SALESFORCE IMPLEMENTATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="Consulting-Services" class="dropdown__link">CONSULTING SERVICES</a>
+                                        </li>
+                                        <li>
+                                            <a href="Support-And-Maintenance" class="dropdown__link">SUPPORT AND MAINTENANCE</a>
+                                        </li>
+                                        <li>
+                                            <a href="Data-Migration" class="dropdown__link">DATA MIGRATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="Testing-Deployment" class="dropdown__link">TESTING AND DEPLOYMENT</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__list" id="titan_ti">
+                                        Revolutionary platform 
+                                    </br> enables code-free web
+                                        </br> documents and applications
+                                    </div>
+                                </div>
+                                <div class="dropdown__group" id="titan_image">
+                                    <img src="../client//imageFoleder//titan_all_link_image.png" alt="titan product" class="titan">
+                                </div>
+                            </div>
+                        </div>
+                    </li>                   
                     <li>
                         <a href="ContactUs" class="nav__link">Write To Us</a>
                     </li>

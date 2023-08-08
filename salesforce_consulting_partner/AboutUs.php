@@ -100,4 +100,4 @@ include "../admin/databash/dbConnect.php";
 <!--============= body container End =========== -->
 <!-- footer include  -->
 <?php include "../client/app/footer.php"; ?>
-<!-- footer include ENd -->
+<!-- footer include END -->
