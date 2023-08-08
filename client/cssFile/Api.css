@@ -1,0 +1,204 @@
+.api-box-offers{
+    font-size: 23px;
+    font-weight: 800;
+    color: #D63C29;
+    /* color: #000000; */
+    position: relative;
+    text-transform: uppercase;
+    
+    
+  }
+   .owl-theme .owl-dots .owl-dot span{
+    background-color: #08d9ff !important;
+  }
+  
+  
+  
+  .more_service_btn1{
+    background-color: #e6ebf4;
+    border-left: 5px solid #ccc9c9;
+    padding:10px 15px;
+    margin: 0px 0px 4px 0px ;
+    
+  }
+  .more_service_btn2{
+    background-color: #e6ebf4;
+    border-left: 5px solid #ccc9c9;
+    padding:10px 15px;
+    margin: 0px 0px 4px 0px ;
+  }
+  .more_service_btn3{
+    background-color: #e6ebf4;
+    border-left: 5px solid #ccc9c9;
+    padding:10px 15px;
+    margin: 0px 0px 4px 0px ;
+  }
+  .more_service_btn4{
+    background-color: #e6ebf4;
+    border-left: 5px solid #ccc9c9;
+    padding:10px 15px;
+    margin: 0px 0px 4px 0px ;
+  }
+  .more_service_btn5{
+    background-color: #e6ebf4;
+    border-left: 5px solid #ccc9c9;
+    padding:10px 15px;
+    margin: 0px 0px 4px 0px ;
+  }
+  .more_service_btn6{
+    background-color: #e6ebf4;
+    border-left: 5px solid #ccc9c9;
+    padding:10px 15px;
+    margin: 0px 0px 4px 0px ;
+  }
+  
+  .more_service_btn:hover{
+    background-color: #D63C29;
+    color: #ffffff;
+    cursor: pointer;
+    border-left: 5px solid #930707;
+  }
+  
+  .bg-info-postion{
+    position: relative;
+  
+  }
+  .titel1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #08d9ff;
+    font-size: 15px;
+  }
+  .pabsluteAPI_image{
+    padding: 30px;
+    background-color: #e6ebf4;
+  }
+  
+  .heading_titel{
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 32px;
+  }
+  .heading_p{
+    /* color: #535353; */
+    font-size: 15px;
+      font-weight: 400;
+      line-height: 23px;
+  }
+  
+  .accordion-item{
+    margin-top: 3%;
+    background: transparent;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 3%);
+   
+    border:none !important;
+  }
+  .accordion-button{
+    background-color: #ffffff !important;
+    color: #000000  !important;
+    text-transform: uppercase;
+    border:none !important;
+  
+  }
+  .widget-content{
+    position: relative;
+      text-align: center;
+      padding: 45px 45px 45px;
+      background-color: rgb(5 88 245);
+  }
+  .widget-content .title{
+   color: #ffffff;
+   font-size: 18px;
+    
+  }
+  .widget-content .title {
+    display: block;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .contact-widget .contact-btn {
+    position: relative;
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #ffffff !important;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+  }
+  .contact-widget .contact-btn:hover{
+    background-color: #ffffff;
+    color: #000000 !important;
+  }
+  
+  .contact-widget .phone {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .icon-flex{
+    display: flex;
+    align-items: center;
+  }
+  .contact-widget .icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(237 235 235 / 10%);
+  }
+  .contact-widget .phone a {
+    position: relative;
+    font-weight: 600;
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff;
+  }
+  .contact-widget .email {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .contact-widget .email a {
+    position: relative;
+    font-weight: 600;
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff;
+  
+  }
+  .fontColor{
+        color:#82AAE3; 
+  }
+  
+  .planing-list .fa-check{
+    color: #ffffff;
+    background-color: #D63C29;
+    padding: 5px;
+    border-radius: 50px;
+  
+  }
+  .planing-list{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .hoverActive{
+    background-color: #D63C29;
+    color: #ffffff;
+    cursor: pointer;
+    border-left: 5px solid #930707;
+  }
+  #sidenev_API a{
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
