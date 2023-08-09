@@ -2,8 +2,8 @@
 <?php include "../client/app/header.php"; ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/bannerHeade2\ \(1\).jpg);" id="banner">
-<h3 class="line-1 anim-typewriter text-uppercase text-white text-center"> Looking for exciting career opportunities, Come Join us!!</h3>
+<section style="background-image: url(../client//imageFoleder/carrer_background.webp);background-position:center;" id="banner">
+<h3 class="line text-white "> Looking for exciting career opportunities, Come Join us!!</h3>
 </section>
 
 <section class="mt-5">

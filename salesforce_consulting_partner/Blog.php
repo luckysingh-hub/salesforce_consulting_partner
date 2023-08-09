@@ -2,8 +2,8 @@
 include "../client/app/header.php";
 include "../admin/databash/dbConnect.php";
 ?>
-<section id="banner" style="background-image:url(../client//imageFoleder//bannerBlog.jpg);">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center"> Check out our Blogs, Don’t miss them!!</h3>
+<section id="banner" style="background-image:url(../client//imageFoleder/blog_background.webp);">
+    <h3 class="line text-white "> Check out our Blogs, Don’t miss them!!</h3>
 </section>
 <section class="container mt-5">
     <div class="row mx-auto">

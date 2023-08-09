@@ -1,55 +1,78 @@
 <?php 
 include "../client/app/header.php";
 ?>
+<style>
+    .row {
+  max-width: 100%;
+}
 
-<section class="headerAbout container-fluid">
-    <div class="row">
-        <div class="col-lg-6 aboutHeading">
-            <h2>API Integration</h2>
+@media (min-width:1200px) and (max-width:991px) {
+     .centered .col-sm-2 {
+         width: 13.66666% !important
+     }
+ }
 
+ @media (min-width:992px) and (max-width:767px) {
+     .centered .col-sm-2 {
+         width: 12.666667% !important
+     }
+ }
+
+ @media (min-width:768px) {
+     .centered .col-sm-2 {
+         width: 13.666667% !important
+     }
+ }
+</style>
+<section id="banner" style="background-image:url(../client//imageFoleder/API_background.webp);">
+    <h3 class="line text-white">API Integration</h3>
+</section>
+<section class="mt-5">
+<div class="section-heading">
+Development
+            <span>Life Cycle</span>
+            <div class="section-line"></div>
         </div>
-        <div class="col-lg-6">
+    <div class="container-fluid">
+      <div id="process" class="row centered animated">
+        <div class="col-sm-2 col-sm-offset-1 processBlock one">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText text-start">Planning</div>
         </div>
+        <div class="col-sm-2 processBlock two">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText topProcess text-start">Define<br>Requirements</div>
+        </div>
+        <div class="col-sm-2 processBlock three">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText text-start">Design & <br>Prototyping</div>
+        </div>
+        <div class="col-sm-2 processBlock four">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText topProcess text-start">Software <br>Development</div>
+        </div>
+        <div class="col-sm-2 processBlock five">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText text-start">Testing</div>
+        </div>
+        <div class="col-sm-2 processBlock six">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText topProcess text-start">Deployment</div>
+        </div>
+        <div class="col-sm-2 processLast sevan">
+          <div class="processDot lastDot">&nbsp;</div>
+          <div class="processText text-start"><span>Operations</span> <span class="text-center ">&</span><br>Maintenance</div>
+        </div>
+      </div>
     </div>
 </section>
-
 <section class="mt-5">
     <h2 class="heading-API fontColor text-center"><i>We offers multiple kinds of APIs for the data to move through. they are</i></h2>
 </section>
 
 <section class="mt-5 container">
     <div class="row">
-    <div class="col-lg-4" id="sidenev_API mb-2">
-            <a href="./API-Integration.php">
-                <div class="more_service_btn1 more_service_btn hoverActive">
-                    API Integration
-                </div>
-            </a>
-            <a href="./Implementation-Services.php">
-                <div class="more_service_btn2 more_service_btn">
-                    Salesforce Implementation
-                </div>
-            </a>
-            <a href="./Consulting-Services.php">
-                <div class="more_service_btn3 more_service_btn">
-                    Consulting Services
-                </div>
-            </a>
-            <a href="./Support-And-Maintenance.php">
-                <div class="more_service_btn4 more_service_btn">
-                    Support And Maintenance
-                </div>
-            </a>
-            <a href="./Data-Migration.php">
-                <div class="more_service_btn5 more_service_btn">
-                    Data Migration
-                </div>
-            </a>
-            <a href="./Testing-Deployment.php">
-                <div class="more_service_btn6 more_service_btn">
-                    Testing and Deployment
-                </div>
-            </a>
+    <div class="col-lg-4 align-self-center" id="sidenev_API mb-2">
             <div class="contact-widget mt-3">
                 <div class="widget-content" style="background-image: url(./image/pattern-25.png)">
                     <div class="title">
@@ -60,21 +83,16 @@ include "../client/app/header.php";
                          <i class="fa-solid fa-envelope icon"></i>
                     </div>
                     <div class="phone">
-                        
-                    
-                   
                         Call :<a href="tel:+91 9871 717 425">+91 9871 717 425</a>
                     </div>
                     <div class="email">
-                    
                          E-mail :<a href="mailto:hr@codmsoftware.com">hr@codmsoftware.com</a>
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="col-lg-8 ">
-            <img src="./image/api.png" alt="" class="w-100 pabsluteAPI_image">
+        <div class="col-lg-8 align-self-center">
             <h2 class="pt-2 heading_titel">API Integration</h2>
             <p class="pt-1 heading_p">CodM offers various web service APIs such as REST, SOAP, BULK, Composite, and Apex for transactional access to create, read, edit, and delete data. The Composite resources enable interacting with related data in one API call. These APIs reduce manual data entry in multiple applications, provide support for build release management, and version control activities. Salesforce offers several API options such as Salesforce Connect, Apex callouts, External Services, MuleSoft Composer, Content Management Systems, Change Data Capture, Platform Events, Data Pipelines, OmniStudio, and AppExchange for data movement.</p>
             <div class="container">
@@ -112,7 +130,17 @@ include "../client/app/header.php";
                     </div>
                 </div>
             </div>
-            <h2 class="pt-5 heading_titel">Benefits of Salesforce API Integration</h2>
+          
+
+        </div>
+    </div>
+</section>
+
+<section class="mt-5 bg-light ">
+    <div class="container">
+
+ 
+<h2 class="pt-5 heading_titel">Benefits of Salesforce API Integration</h2>
             <div class="accordion mt-2 mb-3" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -176,11 +204,9 @@ include "../client/app/header.php";
                 </div>
 
             </div>
+            </div>
 
 
-
-        </div>
-    </div>
 </section>
 
 

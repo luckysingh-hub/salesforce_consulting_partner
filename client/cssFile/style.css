@@ -7,10 +7,10 @@
  }
 
  body {
-     font-family: "Poppins", sans-serif;
+     font-family: "Poppins", sans-serif !important;
      font-size: .938rem;
-     background-color: hsl(220, 100%, 99%);
-     color: hsl(220, 12%, 45%)
+     background-color: #ffffff;
+     color: #032d60;
  }
 
  .section-heading {
@@ -26,7 +26,7 @@
  }
 
  .section-heading span {
-     color: #002135;
+     color: #032d60;
      font-weight: 400
  }
 

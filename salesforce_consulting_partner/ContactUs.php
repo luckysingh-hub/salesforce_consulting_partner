@@ -9,8 +9,8 @@
         box-shadow: none !important;
     }
 </style>
-<section style="background-image: url(../client//imageFoleder/bannerHead3\ \(1\).jpg);" id="banner">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">So now you’re here you know how to reach us. We’re happy to serve!!</h3>
+<section style="background-image: url(../client//imageFoleder/con_background.webp);" id="banner">
+    <h3 class="line anim-typewriter text-uppercase text-white text-center">So now you’re here you know how to reach us. We’re happy to serve!!</h3>
 </section>
 <section class="mt-5">
     <div class="container">
