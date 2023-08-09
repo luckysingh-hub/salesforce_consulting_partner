@@ -5,13 +5,25 @@ include "../admin/databash/dbConnect.php";
 ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section class="contianre-fluid bodyHeadBanerr" style="background-image: url(../client/imageFoleder/Basecamp_1920x1080_web.jpg);">
-    <h1 id="typewriter" class="text-center mt-5 text-white"></h1>
-    <p class="tagLine pb-4 text-white">Unlock your sales potential with Salesforce Services - drive growth, increase success</p>
+<!-- <section class="contianre-fluid bodyHeadBanerr" style="background-image: url(../client/imageFoleder/index_banner_main.webp);">
+    <h1 id="typewriter" class="text-center mt-4" style="color:#032d60;" ></h1>
+    <p class="tagLine pb-3" style="color:#032d60;">Unlock your sales potential with Salesforce Services - drive growth, increase success</p>
     <div class="bannerButton mb-5">
-        <a href="ContactUs" class="btn btn-outline-info text-uppercase mb-3 p-2"><i class="fa-regular fa-comment"></i> Talk to a Consultant</a>
-        <a href="Career" class="btn btn-outline-info text-uppercase mb-3 ms-md-4 p-2"><i class="fa-solid fa-user"></i> Hiring</a>
+        <a href="ContactUs" class="btn btn-outline-info text-uppercase mb-3 p-2 text-dark"><i class="fa-regular fa-comment"></i> Talk to a Consultant</a>
+        <a href="Career" class="btn btn-outline-info text-uppercase mb-3 ms-md-4 p-2 text-dark"><i class="fa-solid fa-user"></i> Hiring</a>
     </div>
+</section> -->
+<section  class="header-wrapper">
+    <div style="background-image: url(../client/imageFoleder/herontower2_large.webp);" class="zoominheader">
+    <div class="zoomoutheader">
+    <h1 id="typewriter" class="text-center mt-5 text-white"  ></h1>
+    <p class="tagLine pb-3 text-white">Unlock your sales potential with Salesforce Services - drive growth, increase success</p>
+    <div class="bannerButton mb-5">
+        <a href="ContactUs" class="btn btn-outline-info text-uppercase mb-3 p-2 "><i class="fa-regular fa-comment"></i> Talk to a Consultant</a>
+        <a href="Career" class="btn btn-outline-info text-uppercase mb-3 ms-md-4 p-2 "><i class="fa-solid fa-user"></i> Hiring</a>
+    </div>
+    </div>
+  </div>
 </section>
 
 <section class="mt-5 sectionDividLine">
@@ -34,7 +46,7 @@ include "../admin/databash/dbConnect.php";
         <div class="row mb-4">
             <div class="col-lg-5">
                 <div style="font-weight:600">Our Expertise</div>
-                <div class="ourExpertiseTittel">It has never been easier to get attractive <span style="color: #29ade4;">Services.</span></div>
+                <div class="ourExpertiseTittel" style="color:#032d60;">It has never been easier to get attractive <span style="color: #29ade4;">Services.</span></div>
             </div>
             <div class="col-lg-7 ourExpertiseSubTittel">
                 As an IT company, we specialize in delivering best-in-class Salesforce solutions
@@ -174,6 +186,18 @@ include "../admin/databash/dbConnect.php";
                 <div class="Industriesoverlay"></div>
                 <div class="button"><a href="#!">More</a></div>
             </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//ngo-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">NGO</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Shipping-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">Shipping</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
         </div>
     </div>
 </section>
@@ -186,7 +210,7 @@ include "../admin/databash/dbConnect.php";
     </div>
     <div class="row">
         <div class="col-lg-7 col-12 mb-3">
-            <img src="../client//imageFoleder//Stellar Wallet Development.jpg" alt="tellar Wallet Development" class="w-100 h-100">
+            <img src="../client//imageFoleder//Stellar Wallet Development.webp" alt="tellar Wallet Development" class="w-100 h-100" style="border-radius: 30px ;">
         </div>
         <div class="col-lg-5 col-12">
             <div class="hiringTitel">Hire from us, because we have the best man for the job!</div>

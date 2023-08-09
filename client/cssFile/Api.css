@@ -2,17 +2,12 @@
     font-size: 23px;
     font-weight: 800;
     color: #D63C29;
-    /* color: #000000; */
     position: relative;
     text-transform: uppercase;
-    
-    
   }
    .owl-theme .owl-dots .owl-dot span{
     background-color: #08d9ff !important;
   }
-  
-  
   
   .more_service_btn1{
     background-color: #e6ebf4;
@@ -175,7 +170,7 @@
   
   }
   .fontColor{
-        color:#82AAE3; 
+        color:#032d60; 
   }
   
   .planing-list .fa-check{
@@ -197,8 +192,4 @@
     color: #ffffff;
     cursor: pointer;
     border-left: 5px solid #930707;
-  }
-  #sidenev_API a{
-    text-decoration: none !important;
-    color: #000000 !important;
   }

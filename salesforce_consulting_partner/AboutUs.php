@@ -5,8 +5,8 @@ include "../admin/databash/dbConnect.php";
 ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
-    <h3 class="line-1 anim-typewriter text-white text-center">Maximize your potential with codm software Experts!!</h3>
+<section style="background-image: url(../client//imageFoleder/about_background.webp);" id="banner">
+    <h3 class="line-1  text-white ">Maximize your potential with codm software Experts!!</h3>
 </section>
 
 
