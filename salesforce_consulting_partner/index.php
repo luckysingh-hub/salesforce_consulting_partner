@@ -5,14 +5,6 @@ include "../admin/databash/dbConnect.php";
 ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<!-- <section class="contianre-fluid bodyHeadBanerr" style="background-image: url(../client/imageFoleder/index_banner_main.webp);">
-    <h1 id="typewriter" class="text-center mt-4" style="color:#032d60;" ></h1>
-    <p class="tagLine pb-3" style="color:#032d60;">Unlock your sales potential with Salesforce Services - drive growth, increase success</p>
-    <div class="bannerButton mb-5">
-        <a href="ContactUs" class="btn btn-outline-info text-uppercase mb-3 p-2 text-dark"><i class="fa-regular fa-comment"></i> Talk to a Consultant</a>
-        <a href="Career" class="btn btn-outline-info text-uppercase mb-3 ms-md-4 p-2 text-dark"><i class="fa-solid fa-user"></i> Hiring</a>
-    </div>
-</section> -->
 <section  class="header-wrapper">
     <div style="background-image: url(../client/imageFoleder/herontower2_large.webp);" class="zoominheader">
     <div class="zoomoutheader">
