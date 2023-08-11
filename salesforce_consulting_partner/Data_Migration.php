@@ -24,8 +24,8 @@ include "../client/app/header.php";
      }
  }
 </style>
-<section id="banner" style="background-image:url(../client//imageFoleder/Data_Migration.webp); background-position: center;">
-    <h3 class="line-1 text-white">Data Migration</h3>
+<section id="banner" style="background-image:url(../client//imageFoleder/Data_Migration.webp);">
+    <h3 class="line text-white">Data Migration</h3>
 </section>
 <section class="mt-5">
 <div class="section-heading">

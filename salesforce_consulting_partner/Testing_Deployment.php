@@ -25,7 +25,7 @@ include "../client/app/header.php";
  }
 </style>
 <section id="banner" style="background-image:url(../client//imageFoleder/Testing_Deployment.webp);">
-    <h3 class="line text-white">Testing and Deployment</h3>
+    <h3 class="line-1 text-white">Testing and Deployment</h3>
 </section>
 <section class="mt-5">
 <div class="section-heading">

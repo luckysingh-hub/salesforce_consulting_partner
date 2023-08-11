@@ -2,7 +2,7 @@
 <?php include "../client/app/header.php"; ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/carrer_background.webp);background-position:center;" id="banner">
+<section style="background-image: url(../client//imageFoleder/carrer_background.webp);" id="banner">
 <h3 class="line text-white "> Looking for exciting career opportunities, Come Join us!!</h3>
 </section>
 
