@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodM Software</title>
     <META HTTP-EQUIV="Content-type" CONTENT="text/php; charset=UTF-8">
+    <meta name="google-site-verification" content="pYoNVYcgXP6np5jtGBYQ0-4TJ-93U7N-02fTHm7dtec" />
 
     <!-- website description for google bot  -->
     <meta name="description" content="CodM Software Pvt. Ltd. is a certified Salesforce partner specializing in digital
@@ -42,7 +43,6 @@
     <link rel="stylesheet" href="../client//cssFile//Aboutus.css">
     <link rel="stylesheet" href="../client//cssFile//Services.css">
     <link rel="stylesheet" href="../client/cssFile/Api.css">
-    <link rel="stylesheet" href="../client//cssFile//Services_full_page.css">
     <link rel="stylesheet" href="../client//cssFile//TitanProduct.css">
     <link rel="stylesheet" href="../client//cssFile//Career.css">
     <link rel="stylesheet" href="../client//cssFile//Job_Seeker_Form.css">
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-- <li class="dropdown__item">
+                   <!--- <li class="dropdown__item">
                         <div class="nav__link dropdown__button">
                             Products <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                         </div>
@@ -223,7 +223,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li> -->
+                    </li>--->
                     <li class="dropdown__item">
                         <div class="nav__link dropdown__button">
                         Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
