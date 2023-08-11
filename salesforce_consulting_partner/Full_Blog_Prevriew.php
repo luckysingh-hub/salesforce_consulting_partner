@@ -10,9 +10,7 @@ $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 ?>
 
-<section style="background-image: url(../admin/Blog_images/<?php echo $blogrow['blog_image']; ?>);">
-    <h3 class="line-1 text-white"><?php echo $row['blog_tital']; ?></h3>
-</section>
+<section id="banner_full" style="background-image:url(../admin/Blog_images/<?php echo $row['blog_image']; ?>);"></section>
 <section class="container mt-2">
     <div class="row">
         <div class="col-lg-9">
