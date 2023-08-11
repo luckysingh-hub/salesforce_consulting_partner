@@ -24,7 +24,7 @@ include "../client/app/header.php";
      }
  }
 </style>
-<section id="banner" style="background-image:url(../client//imageFoleder/Support_And_Maintenance.webp); background-position:top;">
+<section id="banner" style="background-image:url(../client//imageFoleder/Support_And_Maintenance.webp);">
     <h3 class="line text-white">Support And Maintenance</h3>
 </section>
 <section class="mt-5">

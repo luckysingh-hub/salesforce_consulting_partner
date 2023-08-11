@@ -1,20 +1,15 @@
 #banner {
-    background-position: bottom;
+    background-position:center;
     background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 .line-1 {
     width: 40%;
     float: right;
     font-size: 38px;
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
     font-weight: 500;
-    /* transform: translateY(-50%); */
-    /* text-align: right; */
    padding-top:17%;
    padding-right: 1%;
 }
@@ -22,11 +17,7 @@
     width: 40%;
     float: left;
     font-size: 38px;
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
     font-weight: 500;
-    /* transform: translateY(-50%); */
-    /* text-align: right; */
    padding-top:17%;
    padding-left: 1%;
 }
@@ -45,37 +36,6 @@
     }
  }
 
-/* .anim-typewriter {
-    animation: typewriter 4s steps(30) .1s 1 normal
-}
-
-@keyframes typewriter {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 90%
-    }
-}
-
-@keyframes caret {
-
-    0%,
-    100% {
-        opacity: 0
-    }
-
-    50% {
-        opacity: 1
-    }
-}
-
-@media (max-width:800px) {
-    .line-1 {
-        display: none
-    }
-} */
 
 .aboutContant {
     font-size: 17px;
