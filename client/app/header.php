@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -173,7 +172,7 @@
                             </div>
                         </div>
                     </li>
-                   <!--- <li class="dropdown__item">
+                    <li class="dropdown__item">
                         <div class="nav__link dropdown__button">
                             Products <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                         </div>
@@ -223,7 +222,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>--->
+                    </li>
                     <li class="dropdown__item">
                         <div class="nav__link dropdown__button">
                         Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>

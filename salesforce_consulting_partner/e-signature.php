@@ -2,8 +2,8 @@
 <?php include "../client/app/header.php"; ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">Streamline Your Salesforce Workflow with Secure and User-Friendly E-Signatures</h3>
+<section id="banner" style="background-image:url(../client//imageFoleder/e-signature.webp);">
+    <h3 class="line-1 text-white">Streamline Your Salesforce Workflow with Secure and User-Friendly E-Signatures</h3>
 </section>
 <section class="mt-5">
     <div class="container">

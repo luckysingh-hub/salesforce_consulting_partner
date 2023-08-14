@@ -2,8 +2,8 @@
 <?php include "../client/app/header.php"; ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">Streamline CLM with Easy Contract Lifecycle Management Solutions</h3>
+<section id="banner" style="background-image:url(../client//imageFoleder/servey.webp);">
+    <h3 class="line text-white">Streamline CLM with Easy Contract Lifecycle Management Solutions</h3>
 </section>
 <section class="mt-5">
     <div class="container">
@@ -17,8 +17,6 @@
         With their wide-ranging offerings, CODM and TITAN address a variety of industries and ensure that companies of all sizes find solutions tailored to their needs</div>
     </div>
 </section>
-
-
 
 <section class="F-T-margin-top">
     <div class="container">
