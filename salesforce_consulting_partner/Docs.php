@@ -2,8 +2,9 @@
 <?php include "../client/app/header.php"; ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">Streamlining Salesforce DocGen Simplified Document Creation</h3>
+
+<section id="banner" style="background-image:url(../client//imageFoleder/titan_docs.webp);">
+    <h3 class="line text-white">Streamlining Salesforce DocGen Simplified Document Creation</h3>
 </section>
 <section class="mt-5">
     <div class="container">
