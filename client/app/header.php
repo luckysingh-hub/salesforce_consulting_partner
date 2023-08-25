@@ -90,7 +90,7 @@
         <div>
             <span class="topInfo"><i class="fa-solid fa-phone"></i> <span><a href="#!">IND : +91 9871717425</a></span></span>
             <span class="topInfo"><i class="fa-solid fa-phone"></i> <span><a href="#!">UK : +44 7436934216</a></span></span>
-            <span class="topInfo"><i class="fa-solid fa-envelope"></i> <span><a href="#!"> hr@codmsoftware.com</a></span></span>
+            <span class="topInfo"><i class="fa-solid fa-envelope"></i> <span><a href="#!"> info@codmsoftware.com</a></span></span>
         </div>
         <!-- <div>
             <marquee width="450"></marquee>
