@@ -83,7 +83,7 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">hr@Codmsoftware.com</a>
+                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@Codmsoftware.com</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-12 mb-2">
@@ -98,7 +98,7 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">hr@Codmsoftware.com</a>
+                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@Codmsoftware.com</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-12 mb-2">
