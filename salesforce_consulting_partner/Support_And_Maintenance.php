@@ -199,3 +199,4 @@ We assume responsibility for the project and guide you toward business success. 
 <!-- footer include  -->
 <?php include "../client/app/footer.php"; ?>
 <!-- footer include END -->
+<!-- The end  -->

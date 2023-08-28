@@ -225,3 +225,4 @@ developers must follow best practices and adhere to Salesforce's security and co
 <!-- footer include  -->
 <?php include "../client/app/footer.php"; ?>
 <!-- footer include END -->
+<!-- The end  -->
