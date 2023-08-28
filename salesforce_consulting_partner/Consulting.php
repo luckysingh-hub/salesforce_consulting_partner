@@ -1,7 +1,7 @@
 <?php 
 include "../client/app/header.php";
 ?>
-<style>
+<!-- <style>
     .row {
   max-width: 100%;
 }
@@ -23,11 +23,11 @@ include "../client/app/header.php";
          width: 13.666667% !important
      }
  }
-</style>
+</style> -->
 <section id="banner" style="background-image:url(../client//imageFoleder/Consulting_background.webp);">
     <h3 class="line-1 text-white">Consulting</h3>
 </section>
-<section class="mt-5">
+<!-- <section class="mt-5">
 <div class="section-heading">
 Development
             <span>Life Cycle</span>
@@ -65,8 +65,8 @@ Development
         </div>
       </div>
     </div>
-</section>
-<section class="mt-5 container">
+</section> -->
+<!-- <section class="mt-5 container">
     <div class="row">
     <div class="col-lg-4" id="sidenev_API">
            
@@ -91,9 +91,19 @@ Development
         </div>
         <div class="col-lg-8 mt-3">
             <h2 class="pt-2 heading_titel">Consulting Services</h2>
-            <p class="pt-1 heading_p">CodM can help businesses transform their operations through custom capabilities and Salesforce implementation. The goal is to help companies connect with customers, partners, and employees and achieve maximum benefits from their investment in the Salesforce platform. CodM offers technical and consulting expertise to enable innovation, change, and experimentation that ultimately delivers more value. The services provided include Salesforce Advisory and Support, with a focus on improving or transforming sales processes using Salesforce Sales Clouds.</p>
+            <p class="pt-1 heading_p">CodM can help businesses transform their operations through custom capabilities 
+                and Salesforce implementation. The goal is to help companies connect with customers, partners, and 
+                employees and achieve maximum benefits from their investment in the Salesforce platform. CodM 
+                offers technical and consulting expertise to enable innovation, change, and experimentation that
+                 ultimately delivers more value. The services provided include Salesforce Advisory and Support, 
+                 with a focus on improving or transforming sales processes using Salesforce Sales Clouds.</p>
 
-            <p class="pt-1 heading_p">Salesforce functionality or custom code-based solutions to achieve efficient process automation. This approach helps create a structured sales process that guides sales reps towards closing deals. Additionally, the passage recommends leveraging Salesforce Service Cloud's default or custom case management functionality to improve customer service quality. Automated case assignment, prioritization, and escalation are some of the mechanisms that can be used to enhance support with the help of the provided services.</p>
+            <p class="pt-1 heading_p">Salesforce functionality or custom code-based solutions to achieve efficient
+                 process automation. This approach helps create a structured sales process that guides sales reps
+                  towards closing deals. Additionally, the passage recommends leveraging Salesforce Service Cloud's
+                   default or custom case management functionality to improve customer service quality. Automated 
+                   case assignment, prioritization, and escalation are some of the mechanisms that can be used to
+                    enhance support with the help of the provided services.</p>
             <div class="mt-5">
                 <div class="planing-list"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">Top Salesforce firm, excels planning.</span></div>
                 <div class="planing-list mt-2"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">Aid achieving goals, services offered.</span></div>
@@ -104,9 +114,100 @@ Development
 
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="mt-5 bg-light">
+
+<section class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+            <img src="../client/imageFoleder/implementation-improve.png" alt="image" style="width:100%; height:380px;">
+            </div>
+            <div class="col-lg-6">
+                <p>CodM can help businesses transform their operations through custom capabilities 
+                and Salesforce implementation. The goal is to help companies connect with customers, partners, and 
+                employees and achieve maximum benefits from their investment in the Salesforce platform. CodM 
+                offers technical and consulting expertise to enable innovation, change, and experimentation that
+                 ultimately delivers more value. The services provided include Salesforce Advisory and Support, 
+                 with a focus on improving or transforming sales processes using Salesforce Sales Clouds.</p>
+                 <p class="pt-3">
+                 Salesforce functionality or custom code-based solutions to achieve efficient
+                 process automation. This approach helps create a structured sales process that guides sales reps
+                  towards closing deals. Additionally, the passage recommends leveraging Salesforce Service Cloud's
+                   default or custom case management functionality to improve customer service quality. Automated 
+                   case assignment, prioritization, and escalation are some of the mechanisms that can be used to
+                    enhance support with the help of the provided services.
+                 </p>
+                 <p class="pt-3">
+                 <div class="planing-list"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">Top Salesforce firm, excels planning.</span></div>
+                <div class="planing-list mt-2"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">Aid achieving goals, services offered.</span></div>
+                <div class="planing-list mt-2"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">Expertise aids varied industries, Salesforce.</span></div>
+                <div class="planing-list mt-2"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">People, processes, change crucial.</span></div>
+                 </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-5 text-white " style="background-image: url(../client//imageFoleder/background3.jpg);" id="Industries">
+    <div class="container text-center">
+        <div class="section-heading">
+            We Serve
+            <span class="text-white">to Industries</span>
+            <div class="section-line"></div>
+        </div>
+        <div class="owl-carousel" id="serveToIndustrie">
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//people-graduating-with-diplomas-close-up.jpg" alt="Education" />
+                <p class="Industriestitle">Education</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//banking-saving-money-management-account-concept.jpg" alt="Bank" />
+                <p class="Industriestitle">Bank</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Healthcare Tech_ Role Of IT Departments Will Change Fundamentally - Forbes India Blogs.jpg" alt="Healthcare" />
+                <p class="Industriestitle">Healthcare</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Detroit Automotive Manufacturer Gets $360K Grant for Expansion.png" alt="Manufacturing" />
+                <p class="Industriestitle">Manufacturing</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Premium Photo _ Business accounting in office concept.jpg" alt="Finance" />
+                <p class="Industriestitle">Finance</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Premium Photo _ Medical insurance  with family  and stethoscope on wooden desk.jpg" alt="Insurance" />
+                <p class="Industriestitle">Insurance</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//ngo-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">NGO</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Shipping-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">Shipping</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-5">
     <div class="container">
     <h2 class="pt-5 heading_titel">Consulting services benefit</h2>
             <div class="accordion mt-2 mb-3" id="accordionExample">
