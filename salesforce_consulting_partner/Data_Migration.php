@@ -27,81 +27,83 @@ include "../client/app/header.php";
 <section id="banner" style="background-image:url(../client//imageFoleder/Data_Migration.webp);">
     <h3 class="line text-white">Data Migration</h3>
 </section>
+
 <section class="mt-5">
-<div class="section-heading">
-Development
-            <span>Life Cycle</span>
-            <div class="section-line"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+            <img src="../client/imageFoleder/data-migration.png" alt="image" style="width:100%; height:380px;">
+            </div>
+            <div class="col-lg-6">
+                <p> Data migration in Salesforce involves transferring data from one instance to another. This could be necessary when a company is migrating from an older version of Salesforce to a newer one, or when merging multiple instances into one.</p>
+                <p> Data integrity is crucial in Salesforce data migration. It requires consistency, accuracy, and completeness of the data being migrated. Proper formatting and structuring of the migrated data in the target instance is also necessary for effective use.</p>
+                 <p class="pt-3">
+                 Data migration is a complex process that requires careful planning and execution to ensure accurate and secure transfer of data. It involves identifying the data to be migrated, mapping it from source to target instance, and validating the migrated data to ensure it meets desired standards.
+                 </p>
+                 <p class="pt-3">
+                 Salesforce offers tools and features for data migration, such as the Data Loader and third-party services. It is crucial to work with experienced consultants for a smooth process. Benefits of data migration.
+                 </p>
+                
+            </div>
         </div>
-    <div class="container-fluid">
-      <div id="process" class="row centered animated">
-        <div class="col-sm-2 col-sm-offset-1 processBlock one">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText text-start">Planning</div>
-        </div>
-        <div class="col-sm-2 processBlock two">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText topProcess text-start">Define<br>Requirements</div>
-        </div>
-        <div class="col-sm-2 processBlock three">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText text-start">Design & <br>Prototyping</div>
-        </div>
-        <div class="col-sm-2 processBlock four">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText topProcess text-start">Software <br>Development</div>
-        </div>
-        <div class="col-sm-2 processBlock five">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText text-start">Testing</div>
-        </div>
-        <div class="col-sm-2 processBlock six">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText topProcess text-start">Deployment</div>
-        </div>
-        <div class="col-sm-2 processLast sevan">
-          <div class="processDot lastDot">&nbsp;</div>
-          <div class="processText text-start"><span>Operations</span> <span class="text-center ">&</span><br>Maintenance</div>
-        </div>
-      </div>
     </div>
 </section>
-<section class="mt-5 container">
-    <div class="row">
-        <div class="col-lg-4" id="sidenev_API">
-            <div class="contact-widget mt-3">
-                <div class="widget-content" style="background-image: url(./image/pattern-25.png)">
-                    <div class="title">
-                         Work Together </div>
-                    <a href="#" class="theme-btn contact-btn">Contact Us</a>
-                    <div class="icon-flex">
-                    <i class="fa-solid fa-phone icon"></i>
-                         <i class="fa-solid fa-envelope icon"></i>
-                    </div>
-                    <div class="phone">
-                        
-                    
-                   
-                        Call :<a href="tel:+91 9871 717 425">+91 9871 717 425</a>
-                    </div>
-                    <div class="email">
-                    
-                         E-mail :<a href="mailto:hr@codmsoftware.com">hr@codmsoftware.com</a>
-                    </div>
-                </div>
-            </div>
-
+<section class="mt-5 text-white " style="background-image: url(../client//imageFoleder/background3.jpg);" id="Industries">
+    <div class="container text-center">
+        <div class="section-heading">
+            We Serve
+            <span class="text-white">to Industries</span>
+            <div class="section-line"></div>
         </div>
-        <div class="col-lg-8 ">
-            <h2 class="pt-2 heading_titel">Data Migration</h2>
-            <p class="pt-1 heading_p">Data migration in Salesforce involves transferring data from one Salesforce instance to another. This could be necessary when a company is migrating from an older version of Salesforce to a newer one, or when merging multiple Salesforce instances into one.</p>
-            <p class="pt-1 heading_p">The process of data migration can be complex and requires careful planning and execution to ensure that data is transferred accurately and securely. It typically involves several steps, including identifying the data to be migrated, mapping the data from the source to the target instance, and validating the migrated data to ensure that it meets the desired standards.</p>
-            <p class="pt-1 heading_p">One important consideration in Salesforce data migration is ensuring data integrity. This means that the data being migrated should be consistent, accurate, and complete. It is also important to ensure that the migrated data is properly formatted and structured in the target instance to ensure that it can be used effectively.</p>
-            <p class="pt-1 heading_p">Salesforce provides various tools and features to help with data migration, including the Data Loader, which can be used to import and export data in bulk, as well as third-party tools and services. It is important to work with experienced Salesforce consultants and developers who can help ensure a successful and seamless data migration process.</p>
- 
-
-
-
+        <div class="owl-carousel" id="serveToIndustrie">
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//people-graduating-with-diplomas-close-up.jpg" alt="Education" />
+                <p class="Industriestitle">Education</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//banking-saving-money-management-account-concept.jpg" alt="Bank" />
+                <p class="Industriestitle">Bank</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Healthcare Tech_ Role Of IT Departments Will Change Fundamentally - Forbes India Blogs.jpg" alt="Healthcare" />
+                <p class="Industriestitle">Healthcare</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Detroit Automotive Manufacturer Gets $360K Grant for Expansion.png" alt="Manufacturing" />
+                <p class="Industriestitle">Manufacturing</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Premium Photo _ Business accounting in office concept.jpg" alt="Finance" />
+                <p class="Industriestitle">Finance</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Premium Photo _ Medical insurance  with family  and stethoscope on wooden desk.jpg" alt="Insurance" />
+                <p class="Industriestitle">Insurance</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//ngo-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">NGO</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Shipping-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">Shipping</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
         </div>
     </div>
 </section>
