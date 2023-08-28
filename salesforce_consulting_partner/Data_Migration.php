@@ -178,3 +178,4 @@ Development
 <?php include "../client/app/footer.php"; ?>
 <!-- footer include END -->
 <!-- The end  -->
+
