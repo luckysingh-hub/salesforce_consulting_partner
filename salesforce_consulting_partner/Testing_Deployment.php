@@ -27,57 +27,9 @@ include "../client/app/header.php";
 <section id="banner" style="background-image:url(../client//imageFoleder/Testing_Deployment.webp);">
     <h3 class="line-1 text-white">Testing and Deployment</h3>
 </section>
-
-<!-- <section class="mt-5 container">
-    <div class="row">
-        <div class="col-lg-4" id="sidenev_API">
-            <div class="contact-widget mt-3">
-                <div class="widget-content" style="background-image: url(./image/pattern-25.png)">
-                    <div class="title">
-                         Work Together </div>
-                    <a href="#" class="theme-btn contact-btn">Contact Us</a>
-                    <div class="icon-flex">
-                    <i class="fa-solid fa-phone icon"></i>
-                         <i class="fa-solid fa-envelope icon"></i>
-                    </div>
-                    <div class="phone">
-                        
-                    
-                   
-                        Call :<a href="tel:+91 9871 717 425">+91 9871 717 425</a>
-                    </div>
-                    <div class="email">
-                    
-                         E-mail :<a href="mailto:hr@codmsoftware.com">hr@codmsoftware.com</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-lg-8 mt-3">
-            <h2 class="pt-2 heading_titel">Salesforce Testing and Deployment</h2>
-            <p class="pt-1 heading_p">Data migration in Salesforce involves transferring data from one Salesforce instance to another. This could be necessary when a company is migrating from an older version of Salesforce to a newer one, or when merging multiple Salesforce instances into one.</p>
-
-            <p class="pt-1 heading">To ensure successful testing and deployment, developers typically use various tools and techniques, such as automated testing,
-continuous integration, and version control. These processes help identify and fix any issues before releasing the application to end-users. Additionally,
-developers must follow best practices and adhere to Salesforce's security and compliance guidelines to ensure data privacy and protection.</p>
-           
-<h2 class="pt-2 heading_titel">why is Salesforce Testing and Deployment?</h2>
-<div class="mt-5">
-      <div class="planing-list"><span><i class="fa-solid fa-check"></i></span><span class="ps-3"> Testing and deployment are crucial steps in the software development lifecycle.</span></div>
-      <div class="planing-list"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">SalesForce is a cloud-based customer relationship management (CRM) platform that requires frequent updates and changes.</span></div>
-      <div class="planing-list"><span><i class="fa-solid fa-check"></i></span><span class="ps-3"> Testing ensures that new features and updates are functioning correctly and do not negatively impact the platform's performance.</span></div>
-      <div class="planing-list"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">Deployment involves releasing the changes into production and making them available to users.</span></div>
-      <div class="planing-list"><span><i class="fa-solid fa-check"></i></span><span class="ps-3">Proper testing and deployment procedures are necessary for maintaining the stability and reliability of SalesForce.</span></div>
-</div>
-
-          
-
-
-
-    </div>
-    </div>
-</section> -->
+<section class="mt-5">
+    <h2 class="heading-API fontColor text-center"><i>Testing Deployment</i></h2>
+</section>
 
 <section class="mt-5">
     <div class="container">
@@ -86,13 +38,32 @@ developers must follow best practices and adhere to Salesforce's security and co
             <img src="../client/imageFoleder/testing and deployment.png" alt="image" style="width:100%; height:380px;">
             </div>
             <div class="col-lg-6">
-                <p> Data migration in Salesforce moves data from one instance to another, which can occur when a company upgrades to a newer version or combines multiple instances.</p>
-                 <p class="pt-3">
-                 Developers use a variety of methods and tools, including automated testing, continuous integration, and version control, to ensure successful testing and deployment. 
-                 These processes assist in detecting and resolving any problems before the application is released to users. Furthermore, developers must follow Salesforce's security 
-                 and compliance guidelines and adhere to best practices to safeguard data privacy and security.
+                <p class="pt-3 heading_p"> The process of data migration in Salesforce pertains to the movement of data from one Salesforce instance 
+                    to another. This may be required when a business upgrades from an older version of Salesforce to a more recent one, 
+                    or when consolidating several Salesforce instances into a single one.</p>
+                 <p class="pt-3 heading_p">
+                 To ensure successful testing and deployment, developers typically use various tools and techniques, such as automated 
+                 testing, continuous integration, and version control. These processes help identify and fix any issues before releasing 
+                 the application to end-users. Additionally, developers must follow best practices and adhere to Salesforce's security and 
+                 compliance guidelines to ensure data privacy and protection.
                  </p>
                 
+            </div>
+            <h2 class="pt-1 heading_titel"> Why Do We Need Salesforce Testing? </h2>
+            <p class="pt-3 heading_p"> The Salesforce platform is extremely adaptable and inclusive, allowing businesses to personalize it to suit their individual needs with ease. 
+                It offers a diverse range of resources, tools, and an extensive third-party integration ecosystem through the AppExchange marketplace, all of which can be utilized to customize the platform. 
+                However, given the complexity of the system, conflicts may occur. </p>
+            <p class="pt-3 heading_p"> When upgrading Salesforce to a newer version, it can conflict with the existing customizations </p>
+            <p class="pt-3 "> New external systems, APIs, and integrations may clash with already installed integrations </p>
+            <p class="pt-3 "> New data validation rules can be too strict or inconsistent with existing data, causing issues with data entry and updates </p>
+            <p class="pt-3 "> Heavy data processing can impact performance </p>
+            <p class="pt-3 "> Customizations that modify user access controls can lead to security issues </p>
+            <p class="pt-3 heading_p"> By conducting comprehensive testing, the QA team can identify and resolve areas of conflict in a timely manner prior to release, thereby minimizing the adverse effects of bugs on the company's profits. Along with examining customizations, Salesforce testing offers the same advantages as performing typical software testing. </p>
+            <p class="pt-3 "> Ensure system reliability and stability </p>
+            <p class="pt-3 "> Minimize risk of system failures, data loss, or performance issues </p>
+            <p class="pt-3 "> Maintain data integrity in the system </p>
+            <p class="pt-3 "> Improve user experience by identifying and eliminating friction </p>
+            <p class="pt-3 "> Ensure compliance and security </p>
             </div>
         </div>
     </div>
