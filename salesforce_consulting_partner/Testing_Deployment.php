@@ -54,16 +54,53 @@ include "../client/app/header.php";
                 It offers a diverse range of resources, tools, and an extensive third-party integration ecosystem through the AppExchange marketplace, all of which can be utilized to customize the platform. 
                 However, given the complexity of the system, conflicts may occur. </p>
             <p class="pt-3 heading_p"> When upgrading Salesforce to a newer version, it can conflict with the existing customizations </p>
-            <p class="pt-3 "> New external systems, APIs, and integrations may clash with already installed integrations </p>
-            <p class="pt-3 "> New data validation rules can be too strict or inconsistent with existing data, causing issues with data entry and updates </p>
-            <p class="pt-3 "> Heavy data processing can impact performance </p>
-            <p class="pt-3 "> Customizations that modify user access controls can lead to security issues </p>
+            <p class="pt-6 "> New external systems, APIs, and integrations may clash with already installed integrations </p>
+            <p class="pt-6 "> New data validation rules can be too strict or inconsistent with existing data, causing issues with data entry and updates </p>
+            <p class="pt-6 "> Heavy data processing can impact performance </p>
+            <p class="pt-6 "> Customizations that modify user access controls can lead to security issues </p>
             <p class="pt-3 heading_p"> By conducting comprehensive testing, the QA team can identify and resolve areas of conflict in a timely manner prior to release, thereby minimizing the adverse effects of bugs on the company's profits. Along with examining customizations, Salesforce testing offers the same advantages as performing typical software testing. </p>
-            <p class="pt-3 "> Ensure system reliability and stability </p>
-            <p class="pt-3 "> Minimize risk of system failures, data loss, or performance issues </p>
-            <p class="pt-3 "> Maintain data integrity in the system </p>
-            <p class="pt-3 "> Improve user experience by identifying and eliminating friction </p>
-            <p class="pt-3 "> Ensure compliance and security </p>
+            <p class="pt-6 "> Ensure system reliability and stability </p>
+            <p class="pt-6 "> Minimize risk of system failures, data loss, or performance issues </p>
+            <p class="pt-6 "> Maintain data integrity in the system </p>
+            <p class="pt-6 "> Improve user experience by identifying and eliminating friction </p>
+            <p class="pt-6 "> Ensure compliance and security </p>
+            </div>
+            <h2 class="pt-1 heading_titel"> Salesforce CI/CD using Azure DevOps </h2>
+            <p class="pt-3 heading_p"> Getting the Fundamentals right Before we dive in to the setup and configurations of the DevOps process, 
+                we should have a clear understanding of what Continuos Integration (CI) is and what Continuous Delivery (CD) Is.</p>
+            <p class="pt-6 heading_p"> <b>Continuous Integration (CI)</b> is not a tool. It is a practice. </p>
+            <p class="pt-6 "> It is a practice for integrating the work of all developers into a common codebase. </p>
+            <p class="pt-6 "> It involves running tests automatically when code is changed. </p>
+            <p class="pt-6 "> It also involves detecting broken build & tests in few seconds to keep process flowing. </p>
+            <p class="pt-6 "> <b> Continuous Delivery (CD)</b> is not a tool. It is a practice. </p>
+            <p class="pt-6 "> It also involves propagating changes from PROD to DEV to keep orgs in sync. </p>
+            <p class="pt-6 "> <b>Understanding the current Development Model</b> As of today, Salesforce recommends two development models. </p>
+            <p class="pt-6 "> Package Development Model </p>
+            <p class="pt-6 "> Org Development Model </p>
+            <p class="pt-3 "> We need to set the deployment strategy in alignment with the development models. 
+                In Package Development Model, Every artefact is bundled into a package and deployed separately 
+                Package should be self-sufficient & isolated Requires the organization to have adherence to architectural 
+                principles, existence of frameworks, horizontal & vertically sliced concerns addressed Even though Package 
+                Development Model appears close to what we want to have, do not force yourself into package development if 
+                your organizational practices are not package based. Package Development Model would vision to release features 
+                as a package which is vertically and horizontally sliced. Any impacts that occur would only happen in that package/app 
+                and it would not affect the other packages/apps. Getting to the package development model maturity itself is a huge effort on its own. </p>
+            <p class="pt-6 "> In Org Development Model, </p>
+            <p class="pt-6 "> Artefacts are bundled as functionalities/features for deployment (like a changeset bundle) </p>
+            <p class="pt-6 "> Deployments are org based and not package based </p>
+            <p class="pt-6 "> Org Development Model is a common development model that most organizations follow. Every feature developed would be bundled into a changeset and be deployed to an org. Post deployment, QA would do a smoke testing and a regression testing just to ensure nothing in the org is impacted. </p>
+            <p class="pt-6 "> Now, let’s define the problem statement. </p>
+            <p class="pt-6 "> ABC Company uses Salesforce CRM for their business. They have a development team that develops functionalities as per business request in a Developer Sandbox. The team lead/team manager/deployment manager collects the list of items developed for each functionality from the developer, prepares changeset and deploys to QA Sandbox when it is ready for QA testing. After QA testing is pass, those functionalities are queued for PROD deployment which happens once every 2 weeks. The team lead/team manager/deployment manager again creates the changeset for PROD deployment and executes them every 2 weeks and initimates the organization stakeholders. For your information, they use Azure repositories for code management for their website development team. </p>
+            <p class="pt-6 heading_titel"> Key items to consider for deployment strategy </p>
+            <p class="pt-6 "> It is clear that ABC company uses Org Development Model. So, we need to understand that anything related to package development model (even though it is fancy and attractive) should not be forced. </p>
+            <p class="pt-6 "> They already use Azure repositories for version control needs. So, it is worth using Azure repo for SF code management. </p>
+            <p class="pt-6 "> Azure has out of the box features for Devops which is called Azure DevOps services. This can be used as a tool for CI/CD. </p>
+            <p class="pt-6 heading_titel"> Things that we need before we start the DevOps configurations </p>
+            <p class="pt-6 "> Salesforce Developer Org [if you don’t have one, signup and get a free personal dev org] </p>
+            <p class="pt-6 "> Developer Azure account [just go to dev.azure.com and register with your microsoft personal email address] </p>
+            <p class="pt-6 "> Salesforce CLI installed locally </p>
+            <p class="pt-6 "> Visual Studio Code installed locally with “Salesforce Extension Pack” installed. </p>
+            <p class="pt-6 "> Git (either via npm or as installer) </p>
             </div>
         </div>
     </div>

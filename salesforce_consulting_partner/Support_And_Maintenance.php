@@ -37,7 +37,7 @@ include "../client/app/header.php";
             <img src="../client/imageFoleder/support-maintenance_800_400.png" alt="image" style="width:100%; height:380px;">
             </div>
             <div class="col-lg-6">
-                <p> The text highlights the importance of maintaining a properly functioning CRM system to ensure customer satisfaction. 
+                <p class="pt-3"> The text highlights the importance of maintaining a properly functioning CRM system to ensure customer satisfaction. 
                     It introduces CodM, a company that specializes in Salesforce maintenance services, and emphasizes their extensive knowledge 
                     in ensuring the consistent operation of Salesforce CRM systems.The text mentions that CodM's Salesforce support specialists 
                     are always ready to go the extra mile to provide a seamless CRM experience.Furthermore, the text mentions the various services 
