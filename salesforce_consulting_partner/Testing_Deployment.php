@@ -27,46 +27,8 @@ include "../client/app/header.php";
 <section id="banner" style="background-image:url(../client//imageFoleder/Testing_Deployment.webp);">
     <h3 class="line-1 text-white">Testing and Deployment</h3>
 </section>
-<section class="mt-5">
-<div class="section-heading">
-Development
-            <span>Life Cycle</span>
-            <div class="section-line"></div>
-        </div>
-    <div class="container-fluid">
-      <div id="process" class="row centered animated">
-        <div class="col-sm-2 col-sm-offset-1 processBlock one">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText text-start">Planning</div>
-        </div>
-        <div class="col-sm-2 processBlock two">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText topProcess text-start">Define<br>Requirements</div>
-        </div>
-        <div class="col-sm-2 processBlock three">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText text-start">Design & <br>Prototyping</div>
-        </div>
-        <div class="col-sm-2 processBlock four">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText topProcess text-start">Software <br>Development</div>
-        </div>
-        <div class="col-sm-2 processBlock five">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText text-start">Testing</div>
-        </div>
-        <div class="col-sm-2 processBlock six">
-          <div class="processDot">&nbsp;</div>
-          <div class="processText topProcess text-start">Deployment</div>
-        </div>
-        <div class="col-sm-2 processLast sevan">
-          <div class="processDot lastDot">&nbsp;</div>
-          <div class="processText text-start"><span>Operations</span> <span class="text-center ">&</span><br>Maintenance</div>
-        </div>
-      </div>
-    </div>
-</section>
-<section class="mt-5 container">
+
+<!-- <section class="mt-5 container">
     <div class="row">
         <div class="col-lg-4" id="sidenev_API">
             <div class="contact-widget mt-3">
@@ -113,6 +75,124 @@ developers must follow best practices and adhere to Salesforce's security and co
 
 
 
+    </div>
+    </div>
+</section> -->
+
+<section class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+            <img src="../client/imageFoleder/testing and deployment.png" alt="image" style="width:100%; height:380px;">
+            </div>
+            <div class="col-lg-6">
+                <p> Data migration in Salesforce moves data from one instance to another, which can occur when a company upgrades to a newer version or combines multiple instances.</p>
+                 <p class="pt-3">
+                 Developers use a variety of methods and tools, including automated testing, continuous integration, and version control, to ensure successful testing and deployment. 
+                 These processes assist in detecting and resolving any problems before the application is released to users. Furthermore, developers must follow Salesforce's security 
+                 and compliance guidelines and adhere to best practices to safeguard data privacy and security.
+                 </p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-5">
+<div class="section-heading">
+Development
+            <span>Life Cycle</span>
+            <div class="section-line"></div>
+        </div>
+    <div class="container-fluid">
+      <div id="process" class="row centered animated">
+        <div class="col-sm-2 col-sm-offset-1 processBlock one">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText text-start">Planning</div>
+        </div>
+        <div class="col-sm-2 processBlock two">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText topProcess text-start">Define<br>Requirements</div>
+        </div>
+        <div class="col-sm-2 processBlock three">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText text-start">Design & <br>Prototyping</div>
+        </div>
+        <div class="col-sm-2 processBlock four">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText topProcess text-start">Software <br>Development</div>
+        </div>
+        <div class="col-sm-2 processBlock five">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText text-start">Testing</div>
+        </div>
+        <div class="col-sm-2 processBlock six">
+          <div class="processDot">&nbsp;</div>
+          <div class="processText topProcess text-start">Deployment</div>
+        </div>
+        <div class="col-sm-2 processLast sevan">
+          <div class="processDot lastDot">&nbsp;</div>
+          <div class="processText text-start"><span>Operations</span> <span class="text-center ">&</span><br>Maintenance</div>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="mt-5 text-white " style="background-image: url(../client//imageFoleder/background3.jpg);" id="Industries">
+    <div class="container text-center">
+        <div class="section-heading">
+            We Serve
+            <span class="text-white">to Industries</span>
+            <div class="section-line"></div>
+        </div>
+        <div class="owl-carousel" id="serveToIndustrie">
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//people-graduating-with-diplomas-close-up.jpg" alt="Education" />
+                <p class="Industriestitle">Education</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//banking-saving-money-management-account-concept.jpg" alt="Bank" />
+                <p class="Industriestitle">Bank</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Healthcare Tech_ Role Of IT Departments Will Change Fundamentally - Forbes India Blogs.jpg" alt="Healthcare" />
+                <p class="Industriestitle">Healthcare</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Detroit Automotive Manufacturer Gets $360K Grant for Expansion.png" alt="Manufacturing" />
+                <p class="Industriestitle">Manufacturing</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Premium Photo _ Business accounting in office concept.jpg" alt="Finance" />
+                <p class="Industriestitle">Finance</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Premium Photo _ Medical insurance  with family  and stethoscope on wooden desk.jpg" alt="Insurance" />
+                <p class="Industriestitle">Insurance</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//ngo-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">NGO</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
+            <div id="Industriescontainer">
+                <img src="../client//imageFoleder//Shipping-min.jpg" alt="Insurance" />
+                <p class="Industriestitle">Shipping</p>
+                <div class="Industriesoverlay"></div>
+                <div class="button"><a href="#!">More</a></div>
+            </div>
         </div>
     </div>
 </section>
@@ -224,4 +304,4 @@ developers must follow best practices and adhere to Salesforce's security and co
 
 <!-- footer include  -->
 <?php include "../client/app/footer.php"; ?>
-<!-- footer include END -->
+<!-- footer include END -->	
