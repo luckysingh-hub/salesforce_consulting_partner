@@ -101,6 +101,205 @@ include "../client/app/header.php";
             <p class="pt-6 "> Salesforce CLI installed locally </p>
             <p class="pt-6 "> Visual Studio Code installed locally with “Salesforce Extension Pack” installed. </p>
             <p class="pt-6 "> Git (either via npm or as installer) </p>
+
+            <h2 class="pt-6 id="step-4-getting-the-sf-org-codebase-to-push-to-azure-git-repo">Step 4. Getting the SF Org codebase to push to Azure Git repo</h2>
+            <p>In this step, we will pull the codebase from salesforce and organize it in the way we want to version control it. Then, we will commit 
+                this code to the Azure Git repo we created in Step 3.</p>
+            <ol>
+            <li>Create a folder named “Projects” in your local machine</li>
+            <li>Open the terminal/command prompt from this “Projects” folder.</li>
+            <li>Execute the following command for creating an empty SFDX project locally
+            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> sfdx force:project:create <span class="nt">--projectname</span> MyPersonalDevOrg
+            </code></pre></div>    </div>
+            </li>
+            <li>cd into the newly created project folder
+            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">cd </span>MyPersonalDevOrg
+            </code></pre></div>    </div>
+            </li>
+            <li>Create a folder named “manifest”
+            <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> mkdir manifest
+            </code></pre></div>    </div>
+            </li>
+            <li>Type the following command to open the project in VS Code.
+            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> code <span class="nb">.</span>
+            </code></pre></div>    </div>
+            </li>
+            <li>Create a file named “package.xml” inside the manifest folder.</li>
+            <li>Open the “package.xml” file and paste the following contents. Essentially, we are saying that we are interested in Apex Classes, Apex Triggers, Visualforce Pages and Custom Objects only. You can add more metadata to “package,xml” file as per your needs.
+            <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="cp">&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;</span>
+            <span class="nt">&lt;Package</span> <span class="na">xmlns=</span><span class="s">"http://soap.sforce.com/2006/04/metadata"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;types&gt;</span>
+            <span class="nt">&lt;members&gt;</span>*<span class="nt">&lt;/members&gt;</span>
+            <span class="nt">&lt;name&gt;</span>ApexClass<span class="nt">&lt;/name&gt;</span>
+            <span class="nt">&lt;/types&gt;</span>
+            <span class="nt">&lt;types&gt;</span>
+            <span class="nt">&lt;members&gt;</span>*<span class="nt">&lt;/members&gt;</span>
+            <span class="nt">&lt;name&gt;</span>ApexTrigger<span class="nt">&lt;/name&gt;</span>
+            <span class="nt">&lt;/types&gt;</span>
+            <span class="nt">&lt;types&gt;</span>
+            <span class="nt">&lt;members&gt;</span>*<span class="nt">&lt;/members&gt;</span>
+            <span class="nt">&lt;name&gt;</span>ApexPage<span class="nt">&lt;/name&gt;</span>
+            <span class="nt">&lt;/types&gt;</span>
+            <span class="nt">&lt;types&gt;</span>
+            <span class="nt">&lt;members&gt;</span>*<span class="nt">&lt;/members&gt;</span>
+            <span class="nt">&lt;name&gt;</span>CustomObject<span class="nt">&lt;/name&gt;</span>
+            <span class="nt">&lt;/types&gt;</span>
+            <span class="nt">&lt;version&gt;</span>44.0<span class="nt">&lt;/version&gt;</span>
+            <span class="nt">&lt;/Package&gt;</span>
+           </code></pre></div>    </div>
+           </li>
+           <li>Create a folder named “buildfiles” using the following command
+           <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">mkdir </span>buildfiles
+           </code></pre></div>    </div>
+           </li>
+           <li>Paste the <strong>server.key</strong> inside the buildfiles folder</li>
+           <li>Execute the following command in terminal/command prompt. This will retrieve all the metadata from your SF org to the project folder in metadata format. Please do replace the xxx@xxx.com to your salesforce org username.
+           <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> sfdx force:mdapi:retrieve <span class="nt">-r</span> retrieved <span class="nt">-k</span> manifest/package.xml <span class="nt">-w</span> 10 <span class="nt">-u</span> xxx@xxx.com
+           </code></pre></div>    </div>
+           </li>
+           <li>Unzip the retrieved metadata zip file into a folder named “retrieved”. (<strong>Note</strong> that this unzip command may not work in Windows OS. So manually unzip.)
+           <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>unzip retrieved/unpackaged.zip <span class="nt">-d</span> retrieved
+           </code></pre></div>    </div>
+           </li>
+           <li>Delete the zip file
+           <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm </span>retrieved/unpackaged.zip
+           </code></pre></div>    </div>
+           </li>
+           <li>Convert the unzipped “retrieved” folder contents from metadata format to SFDX format. This will add the metadata into the SFDX project structure under the folder “force-app”
+           <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sfdx force:mdapi:convert <span class="nt">-r</span> retrieved/unpackaged <span class="nt">-d</span> force-app
+           </code></pre></div>    </div>
+           </li>
+           <li>Execute the following command in terminal/command prompt to initialize the project folder for git tracking.
+           <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+           </code></pre></div>    </div>
+        </li>
+        <li>Switch to VS Code. In .gitignore file, add the following lines to the last of the file. We are telling git that do not track “retrieved” and “toDeploy” folders as they are working directories.
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>retrieved/
+        toDeploy/
+        </code></pre></div>    </div>
+        </li>
+        <li>Add the Git user configurations. Execute the following commands in the terminal/command prompt. Replace “xxx@xxx.com” with your dev.azure.com login email address. Replace “testusername” with the username you had got in STEP 3 -&gt; Point number 5.
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config user.email <span class="s2">"xxx@xxx.com"</span>
+        git config user.name <span class="s2">"testusername"</span>
+        </code></pre></div>    </div>
+        </li>
+        <li>Add all the project files to git tracking by executing the following command in terminal/command prompt.
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+        </code></pre></div>    </div>
+        </li>
+        <li>Execute the following command in terminal/command prompt to commit the code.
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"Initial Code"</span>
+        </code></pre></div>    </div>
+        </li>
+        <li>Copy and execute the git remote command from the Azure Project’s -&gt; Repos page shown in the “Push an existing repository from command line” section. GIT_REPO_URL should be replaced with your azure git repo url.
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin GIT_REPO_URL
+        </code></pre></div>    </div>
+        </li>
+        <li>Execute the following command in terminal/command prompt to push the local project codebase to the Azure Git Repo. This might ask for the password. Provide the password that we had got from STEP 3 -&gt; Point number 5.
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-u</span> origin master
+        </code></pre></div>    </div>
+        </li>
+        <li>After the command executes, switch to Azure Git Repo open in browser and refresh the page. You should see the Salesforce Org codebase in the repo.</li>
+        </ol>
+
+        <h2 class="pt-6 id="step-5-creating-the-azure-pipeline-for-automated-build--deploy">Step 5. Creating the Azure Pipeline for automated build &amp; deploy</h2>
+        <p>In this step, we will create the azure pipeline which will build, test and deploy the committed codebase from azure git repo to Salesforce Cloud. Here, we will use the latest SFDX CLI techniques to deploy instead of the old school ANT migration scripts.</p>
+
+        <ol>
+       <li>In the Azure Project page open in the browser, navigate to “Pipelines” tab.</li>
+       <li>Click on “Create Pipeline”</li>
+       <li>Choose “Azure Repos Git” for “Where is your code?”</li>
+       <li>Choose “SF DevOps” project for “Select your repository”</li>
+       <li>Choose “Starter Pipeline” for “Configure your pipeline”</li>
+       <li>Overwrite the code shown in “Review your pipeline YAML” and paste the following code. (<strong>Note</strong>: a usual mistake that people do is to copy-paste the pipeline code and mess up the indentation of the yml code. If indentation is not right, you will have a tough time running the pipeline.)
+       <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> # Starter pipeline
+       # Start with a minimal pipeline that you can customize to build and deploy your code.
+       # Add steps that build, run tests, deploy, and more:
+       # https://aka.ms/yaml
+
+       trigger:
+       batch: "true"
+       branches:
+       include:
+       - master
+       paths:
+       exclude:
+       - README.md
+       - azure-pipelines.yml
+       pr:
+       autoCancel: "true"
+       branches:
+       include:
+       - master
+       paths:
+       exclude:
+       - README.md
+       jobs:
+       - job: Deploy
+       condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+       steps:
+        - task: UseNode@1
+        - bash: 
+         npm install sfdx-cli --global
+          displayName: Install Salesforce CLI
+          - bash: 
+         sfdx force:auth:jwt:grant --clientid $(salesforceDevOrgClientId) --jwtkeyfile ./buildfiles/server.key --username $(salesforceDevOrgUserName) --instanceurl $(salesforceDevOrgInstanceURL) -a devOrg
+          displayName: Authorize salesforce org
+         - bash: 
+         sfdx force:source:convert -r ./force-app -d ./toDeploy
+         displayName: Convert to deploy source
+         - bash: 
+         sfdx force:mdapi:deploy -l RunLocalTests -c -d ./toDeploy -u devOrg -w 10
+         displayName: Run validation on source code
+         - bash: 
+         sfdx force:mdapi:deploy -l RunLocalTests -d ./toDeploy -u devOrg -w 10
+         displayName: Deploy source code to Dev Org
+         </code></pre></div>    </div>
+
+         <p><strong>Explanation of the pipeline code:</strong></p>
+
+          <ul>
+          <li>We define 1 job called “Deploy” with a set of steps/tasks.
+        <ol>
+          <li>Install SF CLI on the azure vm so that we can execute SFDX commands.</li>
+          <li>Authorize the Dev Org and ensure that we can login using clientId, server.key and username</li>
+          <li>Convert the SFDX code in “force-app” directory to metadata format for deployment</li>
+          <li>Run a Validation using the converted code in metadata format using SFDX</li>
+          <li>Deploy the converted code in metadata format using SFDX</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Click on the “Variables” button and create the following variables
+    <ul>
+      <li><strong>salesforceDevOrgClientId</strong> = paste the client id from the connected app we created in Step 2</li>
+      <li><strong>salesforceDevOrgInstanceURL</strong> = https://login.salesforce.com</li>
+      <li><strong>salesforceDevOrgUserName</strong> = type the username of your developer org</li>
+    </ul>
+  </li>
+  <li>Click on “Save &amp; Run”. You will see the pipeline starting to run. You can click the build instance and see what the azure pipeline is doing while it is executing the commands.</li>
+  <li>After the pipeline is executed, you can open the Salesforce Org in browser and navigate to Setup -&gt; Environments -&gt; Deploy -&gt; Deployment Status. Here, you will see a recent Deployment Validation Success &amp; a Deployment Success.</li>
+  <li>Run the following command in terminal/command prompt to pull the pipeline yml file to vscode locally.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull origin master
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>This completes the setup of Azure DevOps pipeline for automating Salesforce deployments.</p>
+
+<p>**From now on, you just need to **</p>
+<ul>
+  <li>open the project code in VS Code</li>
+  <li>add/modify the code</li>
+  <li>run the following commands to commit your code changes to azure git repo
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git add <span class="nb">.</span>
+  git commit <span class="nt">-m</span> <span class="s2">"commit message"</span>
+  git push origin master
+</code></pre></div>    </div>
+  </li>
+  <li>the azure pipeline will automatically detect that a commit was made and it will automatically run the azure pipeline to deploy the code.</li>
+  <li>even if the pipeline succeeds or fails, you will get an email notification regarding the latest build status.</li>
+</ul>
             </div>
         </div>
     </div>
