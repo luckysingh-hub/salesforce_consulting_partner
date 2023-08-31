@@ -238,12 +238,12 @@
                                     <span class="dropdown__title">Services Offered</span>
 
                                     <ul class="dropdown__list">
-                                        <!-- <li>
-                                            <a href="#" class="dropdown__link">OMNISTUDIO</a>
+                                        <li>
+                                            <a href="Omni" class="dropdown__link">OMNISTUDIO</a>
                                         </li>
                                         <li>
                                             <a href="#" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
-                                        </li> -->
+                                        </li>
                                         <li>
                                             <a href="API_integration" class="dropdown__link">API INTEGRATION</a>
                                         </li>
