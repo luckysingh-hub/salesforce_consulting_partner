@@ -206,7 +206,7 @@
                                             <a href="web-application" class="dropdown__link">Titan Web</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">Titan Flow</a>
+                                            <a href="flow-automation" class="dropdown__link">Titan Flow</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -264,8 +264,12 @@
                                         </li>
                                     </ul>
                                 </div>
-                            
-                                <div class="dropdown__group" id="titan_image">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__list" id="titan_ti">
+                                    <h1>Assistance</h1>
+                                    </div>
+                                 </div>
+                                 <div class="dropdown__group" id="titan_image">
                                     <img src="../client//imageFoleder/sarevice_main.webp" alt="titan product" class="titan">
                                 </div>
                             </div>

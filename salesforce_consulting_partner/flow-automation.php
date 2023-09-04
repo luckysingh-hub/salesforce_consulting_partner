@@ -2,8 +2,8 @@
 <?php include "../client/app/header.php"; ?>
 <!-- header include ENd -->
 <!--============= body container =========== -->
-<section style="background-image: url(../client//imageFoleder/background1.jpg);" id="banner">
-    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">Streamline CLM with Easy Contract Lifecycle Management Solutions</h3>
+<section style="background-image: url(../client/imageFoleder/con_background.webp);" id="banner">
+    <h3 class="line-1 anim-typewriter text-uppercase text-white text-center">Streamline Flow Automation</h3>
 </section>
 <section class="mt-5">
     <div class="container">

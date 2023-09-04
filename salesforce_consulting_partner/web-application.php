@@ -3,7 +3,7 @@
 <!-- header include ENd -->
 <!--============= body container =========== -->
 <section id="banner" style="background-image:url(../client//imageFoleder/web-application.webp);">
-    <h3 class="line text-white">Streamline CLM with Easy Contract Lifecycle Management Solutions</h3>
+    <h3 class="line text-white">Streamline Web. Application</h3>
 </section>
 <section class="mt-5">
     <div class="container">
